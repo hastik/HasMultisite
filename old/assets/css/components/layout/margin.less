@@ -1,0 +1,35 @@
+.m {
+  &t { .m(@atr: -top); }
+  &r { .m(@atr: -right); }
+  &b { .m(@atr: -bottom); }
+  &l { .m(@atr: -left); }
+  &x { .m(@i: 0, @j: 1rem); }
+  &y { .m(@j: 0); }
+}
+
+.mcf(@min, @max) { .c(@atr: ~'', @min, @max) }
+.mcx(@min, @max) { .cAxis(@atr: x, @min, @max) }
+.mcy(@min, @max) { .cAxis(@atr: y, @min, @max) }
+.mct(@min, @max) { .c(@atr: -top, @min, @max) }
+.mcr(@min, @max) { .c(@atr: -right, @min, @max) }
+.mcb(@min, @max) { .c(@atr: -bottom, @min, @max) }
+.mcl(@min, @max) { .c(@atr: -left, @min, @max) }
+
+.make-variants(@n:1) when (@n =< 5) {
+  .m(@atr: ~'', @i: 1rem, @j: ~'') {
+    &-@{n} { margin@{atr}: calc(@i * @n * (@n * .5)) if((@j >= 0), calc(@j * @n * (@n * .5))) }
+  }
+
+  .make-variants(@n + 1);
+}
+
+.make-variants();
+
+//clamp
+.c(@atr: ~'', @min, @max) {
+  margin@{atr}: clamp(unit(@min, rem), calc(unit(@min, rem) + (@max - @min) * var(--calcWidth)), unit(@max, rem));
+}
+
+.cAxis(@atr, @min, @max) {
+  margin: if((@atr = x), 0) clamp(unit(@min, rem), calc(unit(@min, rem) + (@max - @min) * var(--calcWidth)), unit(@max, rem)) if((@atr = y), 0);
+}

@@ -1,0 +1,31 @@
+.portfolioGallery {
+  column-width: 30rem;
+  column-gap: 0;
+  padding: 0;
+  width: 100vw;
+}
+.portfolioGallery:hover img {
+  opacity: 0.28;
+}
+.portfolioGallery img {
+  width: 100%;
+  display: block;
+  transition: all 0.8s;
+}
+.portfolioGallery img:hover img {
+  opacity: 1;
+}
+.portfolio-01 h2 {
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 3rem;
+}
+.portfolio-01 .description {
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 5rem;
+}
+.portfolio-01 .counterItem {
+  color: var(--white);
+}
+/*# sourceMappingURL=portfolio.css.map */

@@ -1,0 +1,744 @@
+{
+  "meta": {
+    "title": "Finom Energy - Energetická nezávislost pro váš život",
+    "fontFace": "https://res.cloudinary.com/patrik-vadura/raw/upload/v1641887298/fontFaces/BrandonGrotesque/fontBrandonGrotesque_gf3jjy.css"
+  },
+  "header": {
+    "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651498649/Finom%20Energy%20-%20web/logo/logo-horizontal_src2vd.svg",
+    "logoScroll": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651573385/Finom%20Energy%20-%20web/logo/logo-horizontal_scroll_wityod.svg",
+    "homePath": "/",
+    "links": [
+      {
+        "title": "Výhody",
+        "link": "#cons",
+        "target": false
+      },
+      {
+        "title": "Případová studie",
+        "link": "#caseStudies",
+        "target": false
+      },
+      {
+        "title": "Benefity",
+        "link": "#benefits",
+        "target": false
+      },
+      {
+        "title": "Průběh realizace",
+        "link": "#realisation",
+        "target": false
+      },
+      {
+        "title": "Poptávka",
+        "link": "#contact",
+        "class": "special",
+        "target": false
+      }
+    ]
+  },
+  "footer": {
+    "createdBy": "Created by",
+    "credits": "© 2022 Finom Energy",
+    "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642160813/FINOM%20GROUP/Finom%20Media/logo/svg/finom-media_logo_claim_negative_nukouh.svg",
+    "scroll": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651663546/Finom%20Energy%20-%20web/icons/scrollToTop_uwi8oc.svg"
+  },
+  "hero": {
+    "classes": "",
+    "title": "Energetická nezávislost pro váš život",
+    "button": "Mám zájem o nabídku",
+    "buttonLink": "#contact",
+    "background": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651498759/Finom%20Energy%20-%20web/header_background_01_2x_aps1iy.jpg"
+  },
+  "cons": {
+    "componentId": "cons",
+    "title": "Výhody našeho řešní a&nbsp;garance",
+    "icon": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651498687/Finom%20Energy%20-%20web/icons/icon_check_g9un9w.svg",
+    "items": [
+      {
+        "id": 1,
+        "title": "Zvýšení energetické soběstačnosti"
+      },
+      {
+        "id": 2,
+        "title": "Snížení nákladů na provoz"
+      },
+      {
+        "id": 3,
+        "title": "Zvýšení hodnoty nemovitosti"
+      },
+      {
+        "id": 4,
+        "title": "Garance dotace až 205 000 Kč"
+      },
+      {
+        "id": 5,
+        "title": "Garance ceny v době objednání"
+      },
+      {
+        "id": 6,
+        "title": "Garance doby realizace"
+      }
+    ]
+  },
+  "caseStudies": {
+    "componentId": "caseStudies",
+    "personalTitle": "Pro rodinné domy",
+    "companyTitle": "Pro firmy",
+    "detailButton": "Detailní specifikace",
+    "note": "Tahle případová studie je pouze orientační, a výsledné hodnoty a částky se mohou lišit.",
+    "content": [
+      {
+        "title": "personal"
+      },
+      {
+        "title": "company"
+      }
+    ],
+    "personal": {
+      "image": {
+        "desktop": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651498753/Finom%20Energy%20-%20web/image_building_01_2x_rrhgjo.png",
+        "mobile": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651498750/Finom%20Energy%20-%20web/image_biulding_mobile_01_2x_hsqh0y.png"
+      },
+      "pumps": {
+        "title": "Tepelná<br>čerpadla",
+        "return": "Návratnost 3 roky",
+        "modalId": "personalPumps",
+        "modalColorTheme": "primary",
+        "icon": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651498687/Finom%20Energy%20-%20web/icons/icon_cerpadlo_mah6cp.svg",
+        "iconModal": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651837379/Finom%20Energy%20-%20web/icons/icon_cerpadlo_negative_px7ww4.svg",
+        "backgroundImage": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651498749/Finom%20Energy%20-%20web/cerpadla_image_01_2x_z2gebp.jpg",
+        "graph": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651562540/Finom%20Energy%20-%20web/graphs/graph_cerpadlo_2x_uov2mm.png",
+        "cons": [
+          {
+            "number": "6,1 kW",
+            "title": "Instalovaný výkon TČ"
+          },
+          {
+            "number": "6,02 kW",
+            "title": "Topný výkon"
+          },
+          {
+            "number": "50 dB",
+            "title": "Akustický tlak"
+          }
+        ],
+        "price": {
+          "withoutDPH": {
+            "label": "Cena bez DPH",
+            "price": "201 950 Kč"
+          },
+          "withDPH": {
+            "label": "Cena včetně DPH",
+            "price": "232 243 Kč"
+          }
+        },
+        "description": {
+          "title": "Popis",
+          "items": [
+            {
+              "title": "Výkon tepelného čerpadla",
+              "description": "6,1 kW"
+            },
+            {
+              "title": "Topné výkony",
+              "description": "6,02 kW při A7 / W35"
+            },
+            {
+              "title": "Prodloužená záruka",
+              "description": "4,43 kW při A2 / W35"
+            },
+            {
+              "title": "Akustický tlak",
+              "description": "4,42 kW při A-7 / W35"
+            },
+            {
+              "title": "Možnost chlazení",
+              "description": "5 / 10 let"
+            },
+            {
+              "title": "Tepelné čerpadlo vč. ohřevu teplé vody",
+              "description": "50 dB (A) 2 m od VJ"
+            },
+            {
+              "title": "Vysoká účinnost",
+              "description": ""
+            },
+            {
+              "title": "Připojení k internetu přes aplikaci Vicare",
+              "description": ""
+            },
+            {
+              "title": "Možnost regulace větracích jednotek",
+              "description": ""
+            },
+            {
+              "title": "Připraveno pro spotřebu elektřiny vlastním fotovoltaickým systémem",
+              "description": ""
+            },
+            {
+              "title": "Funkce kaskády až pro 5 tepelných čerpadel",
+              "description": ""
+            }
+          ]
+        },
+        "specification": {
+          "title": "Detailní specifikace",
+          "items": [
+            {
+              "title": "<b>5 - 10 let</b> prodloužená záruka"
+            },
+            {
+              "title": "Možnost chlazení"
+            },
+            {
+              "title": "<b>Vicare</b> - Možnost regulace přes aplikaci"
+            },
+            {
+              "title": "Možné propojení s FVE"
+            },
+            {
+              "title": "Nejžádanější náhrada za plynový kotel"
+            },
+            {
+              "title": "Možnost dotace"
+            },
+            {
+              "title": "50 dB akustický tlak"
+            },
+            {
+              "title": "<b>-22 °C</b> - Funkce až do velmi nízkých teplot"
+            },
+            {
+              "title": "Vysoká účinnost"
+            }
+          ]
+        }
+      },
+      "solarPanels": {
+        "title": "Fotovoltaické<br>elektrárny",
+        "return": "Návratnost 6,5 let",
+        "modalId": "personalSolarPanels",
+        "modalColorTheme": "secondary",
+        "icon": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651498687/Finom%20Energy%20-%20web/icons/icon_solar_diae0c.svg",
+        "iconModal": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651498687/Finom%20Energy%20-%20web/icons/icon_solar_diae0c.svg",
+        "backgroundImage": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651498751/Finom%20Energy%20-%20web/solar_image_01_2x_zddewj.jpg",
+        "graph": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651498775/Finom%20Energy%20-%20web/graphs/graph_solar_2x_acxp4p.png",
+        "cons": [
+          {
+            "number": "6,3 kWp",
+            "title": "Instalovaný výkon FVE"
+          },
+          {
+            "number": "14",
+            "title": "Počet panelů"
+          },
+          {
+            "number": "11,6 kWh",
+            "title": "Kapacita baterií"
+          }
+        ],
+        "price": {
+          "withoutDPH": {
+            "label": "Cena včetně DPH",
+            "price": "495 000 Kč"
+          },
+          "withDPH": {
+            "label": "Cena po odečtení dotace",
+            "price": "290 000 Kč"
+          }
+        },
+        "description": {
+          "title": "Popis",
+          "items": [
+            {
+              "title": "Výkon solární elektrárny",
+              "description": "6,3 kWp"
+            },
+            {
+              "title": "Panely počet/typ",
+              "description": "14 x 450 Wp"
+            },
+            {
+              "title": "Střídač počet/typ",
+              "description": "1x hybridní střídač"
+            },
+            {
+              "title": "Baterie počet/typ",
+              "description": "2x 5,8 kWh"
+            },
+            {
+              "title": "Rozvaděč",
+              "description": "Rozvaděč AC / DC"
+            },
+            {
+              "title": "Typ regulace",
+              "description": "1x Wattrouter"
+            },
+            {
+              "title": "Záloha při výpadku elektřiny",
+              "description": "ANO"
+            },
+            {
+              "title": "Projektová dokumentace",
+              "description": "ANO"
+            },
+            {
+              "title": "Žádost o dotaci NZÚ",
+              "description": "ANO"
+            },
+            {
+              "title": "Administrativa",
+              "description": "ANO"
+            },
+            {
+              "title": "Doprava materiálu",
+              "description": "ANO"
+            }
+          ]
+        },
+        "specification": {
+          "title": "Detailní specifikace",
+          "items": [
+            {
+              "title": "<b>25 let</b> - Garance výkonu FVE panelu > 80 %"
+            },
+            {
+              "title": "<b>6,5 let</b> návratnost investice"
+            },
+            {
+              "title": "<b>10 let</b> záruka na střídač"
+            },
+            {
+              "title": "<b>6,5 MWh</b> roční vyrob. energie celkem"
+            },
+            {
+              "title": "Možnost rozšíření o Wallbox"
+            }
+          ]
+        }
+      }
+    },
+    "company": {
+      "image": {
+        "desktop": "https://res.cloudinary.com/patrik-vadura/image/upload/v1652444480/Finom%20Energy%20-%20web/image_building_02_o3cnfn.png",
+        "mobile": "https://res.cloudinary.com/patrik-vadura/image/upload/v1652444479/Finom%20Energy%20-%20web/image_biulding_mobile_02_tmn2r6.png"
+      },
+      "pumps": {
+        "title": "Tepelná<br>čerpadla",
+        "return": "Návratnost 3 roky",
+        "modalId": "companyPumps",
+        "modalColorTheme": "primary",
+        "icon": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651498687/Finom%20Energy%20-%20web/icons/icon_cerpadlo_mah6cp.svg",
+        "iconModal": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651837379/Finom%20Energy%20-%20web/icons/icon_cerpadlo_negative_px7ww4.svg",
+        "backgroundImage": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651498749/Finom%20Energy%20-%20web/cerpadla_image_01_2x_z2gebp.jpg",
+        "graph": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651842425/Finom%20Energy%20-%20web/graphs/graph_cerpadlo_company_2x_txrczo.png",
+        "cons": [
+          {
+            "number": "33 kW",
+            "title": "Instalovaný výkon TČ"
+          },
+          {
+            "number": "41,8 kW",
+            "title": "Chadící výkon"
+          }
+        ],
+        "price": {
+          "withoutDPH": {
+            "label": "Cena bez DPH",
+            "price": "820 000 Kč"
+          },
+          "withDPH": {
+            "label": "Cena po odečtení dotace bez DPH",
+            "price": "574 000 Kč"
+          }
+        },
+        "description": {
+          "title": "Popis",
+          "items": [
+            {
+              "title": "Výkon tepelného čerpadla",
+              "description": "6,1 kW"
+            },
+            {
+              "title": "Topné výkony",
+              "description": "6,02 kW při A7 / W35"
+            },
+            {
+              "title": "Prodloužená záruka",
+              "description": "4,43 kW při A2 / W35"
+            },
+            {
+              "title": "Akustický tlak",
+              "description": "4,42 kW při A-7 / W35"
+            },
+            {
+              "title": "Možnost chlazení",
+              "description": "5 / 10 let"
+            },
+            {
+              "title": "Tepelné čerpadlo vč. ohřevu teplé vody",
+              "description": "50 dB (A) 2 m od VJ"
+            },
+            {
+              "title": "Vysoká účinnost",
+              "description": ""
+            },
+            {
+              "title": "Připojení k internetu přes aplikaci Vicare",
+              "description": ""
+            },
+            {
+              "title": "Možnost regulace větracích jednotek",
+              "description": ""
+            },
+            {
+              "title": "Připraveno pro spotřebu elektřiny vlastním fotovoltaickým systémem",
+              "description": ""
+            },
+            {
+              "title": "Funkce kaskády až pro 5 tepelných čerpadel",
+              "description": ""
+            }
+          ]
+        },
+        "specification": {
+          "title": "Detailní specifikace",
+          "items": [
+            {
+              "title": "<b>5 - 10 let</b> prodloužená záruka"
+            },
+            {
+              "title": "Možnost chlazení"
+            },
+            {
+              "title": "<b>Vicare</b> - Možnost regulace přes aplikaci"
+            },
+            {
+              "title": "Možné propojení s FVE"
+            },
+            {
+              "title": "Nejžádanější náhrada za plynový kotel"
+            },
+            {
+              "title": "Možnost dotace"
+            },
+            {
+              "title": "50 dB akustický tlak"
+            },
+            {
+              "title": "<b>-22 °C</b> - Funkce až do velmi nízkých teplot"
+            },
+            {
+              "title": "Vysoká účinnost"
+            }
+          ]
+        }
+      },
+      "solarPanels": {
+        "title": "Fotovoltaické<br>elektrárny",
+        "return": "Návratnost 3 roky",
+        "modalId": "companySolarPanels",
+        "modalColorTheme": "secondary",
+        "icon": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651498687/Finom%20Energy%20-%20web/icons/icon_solar_diae0c.svg",
+        "iconModal": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651498687/Finom%20Energy%20-%20web/icons/icon_solar_diae0c.svg",
+        "backgroundImage": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651498751/Finom%20Energy%20-%20web/solar_image_01_2x_zddewj.jpg",
+        "graph": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651842424/Finom%20Energy%20-%20web/graphs/graph_solar_company_2x_izaiie.png",
+        "cons": [
+          {
+            "number": "100 kWp",
+            "title": "Instalovaný výkon FVE"
+          },
+          {
+            "number": "222",
+            "title": "Počet panelů"
+          }
+        ],
+        "price": {
+          "withoutDPH": {
+            "label": "Cena bez DPH",
+            "price": "2 790 000 Kč"
+          },
+          "withDPH": {
+            "label": "Cena po odečtení dotace bez DPH",
+            "price": "1 814 000 Kč"
+          }
+        },
+        "description": {
+          "title": "Popis",
+          "items": [
+            {
+              "title": "Výkon solární elektrárny",
+              "description": "6,3 kWp"
+            },
+            {
+              "title": "Panely počet/typ",
+              "description": "14 x 450 Wp"
+            },
+            {
+              "title": "Střídač počet/typ",
+              "description": "1x hybridní střídač"
+            },
+            {
+              "title": "Baterie počet/typ",
+              "description": "2x 5,8 kWh"
+            },
+            {
+              "title": "Rozvaděč",
+              "description": "Rozvaděč AC / DC"
+            },
+            {
+              "title": "Typ regulace",
+              "description": "1x Wattrouter"
+            },
+            {
+              "title": "Záloha při výpadku elektřiny",
+              "description": "ANO"
+            },
+            {
+              "title": "Projektová dokumentace",
+              "description": "ANO"
+            },
+            {
+              "title": "Žádost o dotaci NZÚ",
+              "description": "ANO"
+            },
+            {
+              "title": "Administrativa",
+              "description": "ANO"
+            },
+            {
+              "title": "Doprava materiálu",
+              "description": "ANO"
+            }
+          ]
+        },
+        "specification": {
+          "title": "Detailní specifikace",
+          "items": [
+            {
+              "title": "<b>25 let</b> - Garance výkonu FVE panelu > 80 %"
+            },
+            {
+              "title": "<b>6,5 let</b> návratnost investice"
+            },
+            {
+              "title": "<b>10 let</b> záruka na střídač"
+            },
+            {
+              "title": "<b>6,5 MWh</b> roční vyrob. energie celkem"
+            },
+            {
+              "title": "Možnost rozšíření o Wallbox"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "benefits": {
+    "componentId": "benefits",
+    "title": "Benefity",
+    "subtitle": "Využijte benefitů, které vám oproti konkurenci nabídneme",
+    "background": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651498751/Finom%20Energy%20-%20web/benefits_background_01_2x_tptw5t.jpg",
+    "items": [
+      {
+        "title": "Odborná konzultace",
+        "description": "Na místě objektivně posoudíme, jaká technologie je pro váš dům nejvhodnější."
+      },
+      {
+        "title": "Stabilní partner",
+        "description": "Zajistíme dlouhodobý servis a záruku 25 let na minimálně 85 % výkonu panelů."
+      },
+      {
+        "title": "Pomoc s financováním",
+        "description": "Výhodný úvěr na technologii pro vás zprostředkujeme v rámci projektu."
+      }
+    ]
+  },
+  "timeline": {
+    "componentId": "realisation",
+    "title": "Průběh realizace",
+    "subtitle": "U nás vždy víte do čeho jdete",
+    "items": [
+      {
+        "number": "1.",
+        "title": "Navrhneme fotovoltaiku pro vás a&nbsp;váš dům",
+        "description": "Navrhujeme taková řešení, která splní vaše očekávání od solární energie"
+      },
+      {
+        "number": "2.",
+        "title": "Vyřídíme dotaci a&nbsp;papírování",
+        "description": "Zajistíme Vám veškerou administrativu spojenou s vyřízením dotace"
+      },
+      {
+        "number": "3.",
+        "title": "Provedeme instalaci a&nbsp;připojení elektrárny",
+        "description": "Provedeme kompletní instalaci elektrárny a následné připojení k distribuci"
+      }
+    ]
+  },
+  "form": {
+    "componentId": "contact",
+    "title": "Vytvořte si nezávaznou kalkulaci",
+    "subtitle": "Stačí vám na to jen 5 minut",
+    "sendButton": "Odeslat poptávku",
+    "sendfrom": "info@finomenergy.cz",
+    "sendto": "obchod@finomgroup.cz,hastik@finomgroup.cz",
+    "subject": "Odeslaná poptávka z webu Finom Energy",
+    "complete": {
+      "title": "Děkujeme za vaši zprávu.",
+      "description": "Vaší zprávě se budemu věnovat co nejdříve. Pokud vaše zpráva nepočká, doporučuji zvolit některý z aletrnativních kontaků."
+    },
+    "manual": [
+      {
+        "id": 1,
+        "title": "Zadejte osobní údaje"
+      },
+      {
+        "id": 2,
+        "title": "Zašlete formulář a naši odborníci vás obratem kontaktují"
+      },
+      {
+        "id": 3,
+        "title": "Získáte cenovou kalkulaci na míru"
+      }
+    ],
+    "contactInfo": {
+      "title": "Osobní údaje",
+      "items": [
+        {
+          "label": "Celé jméno *",
+          "type": "text",
+          "name": "name"
+        },
+        {
+          "label": "Email *",
+          "type": "email",
+          "name": "email"
+        },
+        {
+          "label": "Telefonní číslo *",
+          "type": "text",
+          "name": "phone"
+        },
+        {
+          "label": "Ulice, č.p.",
+          "type": "text",
+          "name": "address1"
+        },
+        {
+          "label": "Město",
+          "type": "text",
+          "name": "address2"
+        },
+        {
+          "label": "PSČ",
+          "type": "text",
+          "name": "address3"
+        }
+      ]
+    },
+    "timeInterval": {
+      "title": "Časový horizont realizace objednávky",
+      "items": [
+        {
+          "label": "Co nejdříve",
+          "checked": true,
+          "name": "conejdrive"
+        },
+        {
+          "label": "Do 6 měsíců",
+          "checked": false,
+          "name": "dosestimesicu"
+        },
+        {
+          "label": "Do 12 měsíců",
+          "checked": false,
+          "name": "do12mesicu"
+        },
+        {
+          "label": "Nevím, zatím sháním informace",
+          "checked": false,
+          "name": "nevim"
+        }
+      ]
+    },
+    "services": {
+      "title": "Mám zájem o tyhle služby",
+      "items": [
+        {
+          "label": "Fotovoltaika",
+          "checked": true,
+          "name": "fotovoltaika"
+        },
+        {
+          "label": "Tepelné čerpadlo",
+          "checked": false,
+          "name": "tepelne-cerpadlo"
+        },
+        {
+          "label": "Kombinace",
+          "checked": false,
+          "name": "kombinace"
+        },
+        {
+          "label": "Nevím, zatím sháním informace",
+          "checked": false,
+          "name": "nevim"
+        }
+      ]
+    },
+    "moreInfo": {
+      "title": "Doplňující informace pro montáž fotovoltaických panelů",
+      "items": [
+        {
+          "label": "Doplňující informace",
+          "rows": "4",
+          "name": "note"
+        }
+      ]
+    },
+    "saleCode": {
+      "title": "Slevový kód",
+      "items": [
+        {
+          "label": "Slevový kód",
+          "type": "text",
+          "name": "code"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "componentId": "",
+    "title": "Službu provozuje",
+    "company": {
+      "title": "Finom Group a.s.",
+      "items": [
+        {
+          "title": "Stojanova 1334"
+        },
+        {
+          "title": "686 01 Uherské Hradiště"
+        },
+        {
+          "title": "IČO: 09937684"
+        },
+        {
+          "title": "DIČ: CZ09937684"
+        }
+      ]
+    },
+    "contactInfo": {
+      "title": "Kontakt",
+      "items": [
+        {
+          "title": "Tel.: +420 777 888 164"
+        },
+        {
+          "title": "Email: obchod@ﬁnomgroup.cz"
+        }
+      ]
+    }
+  }
+}

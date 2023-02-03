@@ -1,0 +1,31 @@
+.post1col {
+  .flex(column, center, center);
+
+  width: 100%;
+  z-index: 0;
+}
+
+.post1col {
+  //states
+  &-01 {
+    padding: 2rem 0;
+    text-align: center;
+
+    h2 {
+      font-weight: var(--fontWeightMedium);
+      color: var(--primary);
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: var(--fontWeightMedium);
+      color: var(--primary);
+    }
+
+    p {
+      color: var(--primary);
+      line-height: 2;
+      text-transform: uppercase;
+    }
+  }
+}

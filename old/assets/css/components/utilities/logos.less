@@ -1,0 +1,23 @@
+.logos {
+  padding: clamp(unit(2, rem), calc(unit(2, rem) + (4 - 2) * var(--calcWidth)), unit(4, rem)) 1rem;
+  text-align: center;
+  width: 100%;
+
+  .item {
+    .flex(column, flex-start, center);
+  }
+}
+
+.logos {
+  &-01 {
+    text-transform: uppercase;
+
+    .item {
+      img {
+        width: auto;
+        height: 15rem;
+        filter: grayscale(1);
+      }
+    }
+  }
+}

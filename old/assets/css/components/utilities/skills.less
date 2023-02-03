@@ -1,0 +1,37 @@
+.skills {
+  .skillsSetting (@pX, @pY) {
+    padding: unit(@pY, rem) unit(@pX, rem);
+  }
+
+  &Item {
+    .flex(column, center, center);
+
+    font-size: 1rem;
+    text-transform: uppercase;
+
+    &Number {
+      font-size: clamp(unit(2, rem), calc(unit(2, rem) + (2.5 - 2) * var(--calcWidth)), unit(2.5, rem));
+      font-weight: var(--fontWeightBold);
+    }
+  }
+
+  &-01 {
+    .skillsSetting (0, 5);
+
+    .skillsItem {
+      padding: 1rem 0;
+      color: var(--white);
+      transition: all 300ms ease-in-out;
+
+      &Number {
+        color: var(--primary);
+      }
+
+      &:hover {
+        @media (min-width: @screenLg) {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}

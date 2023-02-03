@@ -1,0 +1,75 @@
+.btn {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+}
+.btn:hover {
+  background: var(--primary);
+}
+.btnIcon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+.btnWide {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.btnPrimary {
+  background: var(--primary);
+  color: #fff;
+}
+.btnPrimary:hover {
+  background: var(--secondary);
+  color: var(--primary);
+}
+.btnSecondary {
+  background: var(--secondary);
+  color: var(--primary);
+}
+.btnSecondary:hover {
+  background: var(--primary);
+  color: var(--secondary);
+}
+.btnWhite {
+  background: var(--white);
+  color: var(--primary);
+}
+.btnWhite:hover {
+  background: var(--secondary);
+  color: var(--primary);
+}
+.btnOutlinedPrimary {
+  box-shadow: inset 0 0 0 0.25rem var(--primary);
+  background: transparent;
+  color: var(--primary);
+}
+.btnOutlinedPrimary:hover {
+  background: var(--primary);
+  color: var(--secondary);
+}
+.btnOutlinedSecondary {
+  box-shadow: inset 0 0 0 0.25rem var(--secondary);
+  background: transparent;
+  color: var(--secondary);
+}
+.btnOutlinedSecondary:hover {
+  box-shadow: inset 0 0 0 0.25rem var(--secondaryHover);
+  background: transparent;
+  color: var(--secondaryHover);
+}
+.disabled {
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+}
+/*# sourceMappingURL=buttons.css.map */

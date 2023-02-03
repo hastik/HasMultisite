@@ -1,0 +1,38 @@
+.colorPrepare(@name, @color) {
+  --@{name}: @color;
+  @red:red(@color);
+  @green: green(@color);
+  @blue:blue(@color);
+
+  --@{name}_rgb: @red,@green,@blue;
+}
+
+:root {
+  //primary shades
+  --primary-75: rgba(var(--primary), .75);
+  --primary-50: rgba(var(--primary), .5);
+  --primary-25: rgba(var(--primary), .25);
+  --primary-10: rgba(var(--primary), .1);
+  --primary-05: rgba(var(--primary), .05);
+
+  //secondary shades
+  --secondary-75: rgba(var(--secondary), .75);
+  --secondary-50: rgba(var(--secondary), .5);
+  --secondary-25: rgba(var(--secondary), .25);
+  --secondary-10: rgba(var(--secondary), .1);
+  --secondary-05: rgba(var(--secondary), .05);
+
+  //white shades
+  --white-75: rgba(var(--white), .75);
+  --white-50: rgba(var(--white), .5);
+  --white-25: rgba(var(--white), .25);
+  --white-10: rgba(var(--white), .1);
+  --white-05: rgba(var(--white), .05);
+
+  //black shades
+  --black-75: rgba(var(--black), .75);
+  --black-50: rgba(var(--black), .5);
+  --black-25: rgba(var(--black), .25);
+  --black-10: rgba(var(--black), .1);
+  --black-05: rgba(var(--black), .05);
+}

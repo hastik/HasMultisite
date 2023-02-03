@@ -1,0 +1,34 @@
+{
+    "sites": [
+        {
+            "title": "Antonovič",
+            "folder": "antonovic",
+            "getweb": "antonovic",
+            "servername": "test.local"
+        },
+        {
+            "title": "Mařák",
+            "folder": "marak",
+            "getweb": "marak",
+            "servername": "test.local"
+        },
+        {
+            "title": "Finom Sport",
+            "folder": "finomsport",
+            "getweb": "finomsport",
+            "servername": "finomsport.cz"
+        },
+        {
+            "title": "Finom Energy",
+            "folder": "finomenergy",
+            "getweb": "finomenergy",
+            "servername": "finomenergy.cz"
+        },
+        {
+            "title": "Default multipage",
+            "folder": "default_multipage",
+            "getweb": "multipage",
+            "servername": "multipage.cz"
+        }
+    ]
+}

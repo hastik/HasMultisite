@@ -1,0 +1,59 @@
+.team {
+  padding: clamp(unit(2, rem), calc(unit(2, rem) + (4 - 2) * var(--calcWidth)), unit(4, rem)) 0;
+  width: 100%;
+
+  .item {
+    .flex(column, flex-start, center);
+
+    text-align: center;
+  }
+}
+
+.team {
+  &-01 {
+    font-size: 1rem;
+    text-transform: uppercase;
+
+    .item {
+      img {
+        max-height: 20rem;
+        object-fit: cover;
+        border-radius: 100%;
+        filter: grayscale(1);
+        transition: all .3s ease-in-out;
+      }
+
+      h3 {
+        margin-bottom: .5rem;
+        padding-bottom: .5rem;
+        color: var(--primary);
+        border-bottom: .25rem solid var(--secondary);
+        transition: all .3s ease-in-out;
+
+        span {
+          text-transform: none;
+        }
+      }
+
+      h4 {
+        margin-top: .5rem;
+        margin-bottom: 0;
+        font-weight: var(--fontWeightLight);
+        color: var(--primary);
+      }
+
+      &:hover {
+        img {
+          transform: scale(1.1);
+          border-radius: 0;
+          filter: grayscale(0);
+        }
+
+        h3 {
+          color: var(--secondary);
+          border-color: transparent;
+        }
+      }
+    }
+  }
+}

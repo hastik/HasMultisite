@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Radim Antonovič - Pomůžu vám zajistit to nejcennější. Lidský život."
+  },
+  "header": {
+    "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642059695/antonovic_web/logo/logo_antonovic_oguqow.png",
+    "logoScroll": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642059695/antonovic_web/logo/logo_antonovic_oguqow.png",
+    "homePath": "#",
+    "links": [
+      {
+        "title": "Domov",
+        "link": "#",
+        "target": false
+      },
+      {
+        "title": "Služby",
+        "link": "#services",
+        "target": false
+      },
+      {
+        "title": "O mě",
+        "link": "#about",
+        "target": false
+      },
+      {
+        "title": "Spolupráce",
+        "link": "#cooperation",
+        "target": false
+      },
+      {
+        "title": "Kontakt",
+        "link": "#contact",
+        "target": false
+      }
+    ]
+  },
+  "footer": {
+    "createdBy": "Created by",
+    "credits": "© 2022 Radim Antonovič",
+    "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642160813/FINOM%20GROUP/Finom%20Media/logo/svg/finom-media_logo_claim_negative_nukouh.svg",
+    "scroll": "https://res.cloudinary.com/patrik-vadura/image/upload/v1651663546/Finom%20Energy%20-%20web/icons/scrollToTop_uwi8oc.svg"
+  },
+  "hero": {
+    "classes": "",
+    "title": "Pomůžu vám zajistit to nejcennější. <span>Lidský život.</span>",
+    "button": "Mám zájem o nabídku",
+    "background": "https://res.cloudinary.com/patrik-vadura/image/upload/v1644913180/antonovic_web/background_theme_03_itjuf6.jpg"
+  },
+  "aboutUs": {
+    "title": "O mně",
+    "description": "Má cesta k poradenství vedla od kariéry profesionálního sportovce. Kdy se mně zeptali, zdali vím co budu dělat pokud se mi stane úraz, který mi nedovolí pokračovat v kariéře a zdali vím jaké budou mé příjmy po jejím skončení. Jelikož jsem nevěděl jak na tuto otázku odpovědět, věděl jsem, že je potřeba tenhle problém řešit.<br><br>Při řešení jsem zjistil dvě věci. Že nejsem opravdu zajištěný a že nejsem sám kdo v mém okolí  řeší stejný problém. Začal jsem se v oblasti financí vzdělávat a finance mi byly natolik blízké, že po ukončení sportovní kariéry se staly pro mně jasnou volbou.<br><br>Po 10 letech praxe si dovolím říct, že znám finanční trh velmi dobře a ne vždy je ve finančních společnostech na prvním místě klient. Proto bylo pro mě velmi důležité zvolit společnost, kde mi nediktují produkty, ale hledáme správné řešení pro klienta.<br><br>Díky partnerství se společností finom dokážu svým klientům nezávisle poradit a vybrat vhodný produkt pro potřeby klienta.",
+    "image": "https://res.cloudinary.com/patrik-vadura/image/upload/v1644236912/antonovic_web/profile_01_yxm8wg.png",
+    "counter": [
+      {
+        "sufix": "more",
+        "number": "1500",
+        "title": "Klientů"
+      },
+      {
+        "sufix": "year",
+        "number": "12",
+        "title": "Zkušeností"
+      }
+    ]
+  },
+  "services": {
+    "componentId": "services",
+    "classes": "servicesBox-02",
+    "title": "Moje služby",
+    "items": [
+      {
+        "icon": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641912490/marak_web/icons/icon_03_oscuxh.svg",
+        "title": "Investice",
+        "description": "Jsme specialisté na investice. Díky tomuto zaměření u nás najdete nejen tradiční spořící produkty, ale hlavně možnost vstoupit do velmi výnosných investičních projektů. I malé peníze zasluhují velkou pozornost, proto přistupujeme ke každé investici velmi zodpovědně a peníze vždy diverzifikujeme do více oblastí, které i v případě propadu jedné oblasti trhu, ochrání investovaný kapitál."
+      },
+      {
+        "icon": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641912490/marak_web/icons/icon_04_wbkb8h.svg",
+        "title": "Pojištění",
+        "description": "Součástí našich služeb je odborné zabezpečení klienta v případě propadu nebo výpadku příjmu z důvodu nemoci či úrazu. Zabezpečení majetku před nahodilými událostmi a kompletní zajištění občanské, zaměstnanecké, popřípadě podnikatelské odpovědnosti. Naším cílem je řádně vás zabezpečit a v případě nenadálé události být vám plně nápomocni."
+      },
+      {
+        "icon": "https://res.cloudinary.com/patrik-vadura/image/upload/v1641912491/marak_web/icons/icon_05_ws0yjs.svg",
+        "title": "Úvěry",
+        "description": "Díky našim zkušenostem víme, jaký produkt je pro Vaše potřeby ten nejvhodnější. Naši úvěrový specialisté řeší nespočet úvěrů každý měsíc, proto jsou těmi pravými, kdo vám může s výběrem úvěru poradit. Věříme, že naše úvěrové programy splní Vaše očekávání."
+      }
+    ]
+  },
+  "cooperation": {
+    "componentId": "cooperation",
+    "classes": "cooperation-01",
+    "title": "Spolupráce",
+    "description": "“Naši spolupráci stavíme na hodnotách, odpovědného přístupu, důvěry a fér jednání. Naši největší hodnotu pak tvoří lidé, kteří tyhle hodnoty představují. Máte stejný postoj, tak vítejte mezi námi.”",
+    "profileImage": "https://res.cloudinary.com/patrik-vadura/image/upload/v1645624054/antonovic_web/spoluprace_profile_helu7h.png",
+    "button": "Dozvědět se více",
+    "buttonLink": "#",
+    "image": {
+      "desktop": "https://res.cloudinary.com/patrik-vadura/image/upload/v1645626361/antonovic_web/spoluprace_design-block_01_j4xjxx.png",
+      "mobile": "https://res.cloudinary.com/patrik-vadura/image/upload/v1645627270/antonovic_web/spoluprace_design-block_01_mobile_granu4.png"
+    }
+  },
+  "contact": {
+    "componentId": "contact",
+    "title": "Kontaktujte mě",
+    "sendButton": "Odeslat poptávku",
+    "sendfrom": "",
+    "sendto": "",
+    "subject": "Odeslaná zpráva z webu Ondřeje Mařáka",
+    "complete": {
+      "title": "Děkuji za vaši zprávu.",
+      "description": "Vaší zprávě se budu věnovat co nejdříve. Pokud vaše zpráva nepočká, doporučuji zvolit některý z aletrnativních kontaků."
+    },
+    "contactInfo": {
+      "items": [
+        {
+          "icon": "https://res.cloudinary.com/patrik-vadura/image/upload/v1643617381/marak_web/icons/icon_contact_01_uh9abr.svg",
+          "title": "Adresa",
+          "description": "Vavrečkova 7074, <br> Zlín, 760 01"
+        },
+        {
+          "icon": "https://res.cloudinary.com/patrik-vadura/image/upload/v1643617381/marak_web/icons/icon_contact_02_a2uxbk.svg",
+          "title": "Telefon",
+          "description": "+420 773 494 909"
+        },
+        {
+          "icon": "https://res.cloudinary.com/patrik-vadura/image/upload/v1643617381/marak_web/icons/icon_contact_03_puo7j0.svg",
+          "title": "Email",
+          "description": "antonovic@finomgroup.cz"
+        },
+        {
+          "icon": "https://res.cloudinary.com/patrik-vadura/image/upload/v1643617381/marak_web/icons/icon_contact_04_jf6r53.svg",
+          "title": "Web",
+          "description": "finom.cz"
+        }
+      ]
+    },
+    "form": [
+      {
+        "label": "Celé jméno *",
+        "type": "text",
+        "name": "name"
+      },
+      {
+        "label": "Email *",
+        "type": "email",
+        "name": "email"
+      },
+      {
+        "label": "Předmět *",
+        "type": "text",
+        "name": "subject"
+      },
+      {
+        "label": "Vaše zpráva *",
+        "rows": "4",
+        "name": "message"
+      }
+    ]
+  }
+}

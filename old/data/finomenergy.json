@@ -1,0 +1,380 @@
+{
+  "meta": {
+    "title": "Finom Energy - Energetická nezávislost pro váš život"
+  },
+  "title": "Energetická nezávislost pro váš život",
+  "subtitle": "Zabezpečujeme finanční budoucnost pro",
+  "mediaContent": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648036271/Finom%20Sport/backgrounds/background_web_blue_01_ij4dpf.png",
+  "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648035910/Finom%20Sport/logo/finom-invest_logo_horizontal_2x_jk3sxt.png",
+  "header": {
+    "homePath": "/",
+    "links": [
+      {
+        "title": "Výhody",
+        "link": "#cons",
+        "target": false
+      },
+      {
+        "title": "Případová studie",
+        "link": "#caseStudie",
+        "target": false
+      },
+      {
+        "title": "Benefity",
+        "link": "#benefits",
+        "target": false
+      },
+      {
+        "title": "Průběh realizace",
+        "link": "#realisation",
+        "target": false
+      },
+      {
+        "title": "Poptávka",
+        "link": "#contact",
+        "class": "special",
+        "target": false
+      }
+    ]
+  },
+  "hero": {
+    "background": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648467913/Finom%20Sport/hero/simple/hero-simple_klub_g9exly.jpg",
+    "claim": {
+      "title": "Hrej v&nbsp;klidu!",
+      "subtitle": "Profesionální ochrana příjmů a&nbsp;budování majetku na život po kariéře."
+    },
+    "items": [
+      {
+        "title": "Mladý sportovec",
+        "description": "Už víš, co budeš dělat po kariéře? Víš, co to obnáší být profesionálním hráčem? Co by jsi dělal, kdyby přišlo zranění, které ti ukončí kariéru?",
+        "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1650894334/Finom%20Sport/hero_circle_01_xfspwc.png",
+        "link": "mladysportovec.php?web=finomsport"
+      },
+      {
+        "title": "Profesionál",
+        "description": "Uvědomuji si, že kariéra profesionální sportovce je velmi krátká. Zatím nevím, jak bude vypadat můj život po fotbalové kariéře. Každopádně díky spolupráci s Finom Sport se můžu dlouhodobě připravovat a finančně se dostatečně zajistit.",
+        "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1650894334/Finom%20Sport/hero_circle_02_ljkqhp.png",
+        "link": "profesional.php?web=finomsport"
+      },
+      {
+        "title": "Sportovní klub",
+        "description": "Využijte služby pro sportovce inspirované západoevropskými standarty.",
+        "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1650894335/Finom%20Sport/hero_circle_03_vcznyr.png",
+        "link": "klub.php?web=finomsport"
+      },
+      {
+        "title": "Agent, trenér",
+        "description": "Pojďme sportovcům společně zajistit ty nejlepší podmínky pro kariéru.",
+        "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1650894335/Finom%20Sport/hero_circle_04_erae2k.png",
+        "link": "agent.php?web=finomsport"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "send": "Odeslat",
+    "items": [
+      {
+        "title": "Adresa",
+        "content": "Olomouc tř. Svobody 43/39, <br>779 00 Olomouc",
+        "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648196835/Finom%20Sport/icon_address_xrpvql.svg"
+      },
+      {
+        "title": "Telefon",
+        "content": "+420 602 380 003",
+        "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648196835/Finom%20Sport/icon_phone_kpkn8u.svg"
+      },
+      {
+        "title": "Email",
+        "content": "info@finomsport.cz",
+        "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648196835/Finom%20Sport/icon_email_rxg3sv.svg"
+      }
+    ],
+    "form": [
+      {
+        "label": "Celé jméno *",
+        "type": "text",
+        "name": "name"
+      },
+      {
+        "label": "Email *",
+        "type": "email",
+        "name": "email"
+      },
+      {
+        "label": "Předmět *",
+        "type": "text",
+        "name": "subject"
+      },
+      {
+        "label": "Vaše zpráva *",
+        "rows": "4",
+        "name": "message"
+      }
+    ],
+    "cta": {
+      "title": "Nechte si poradit",
+      "subtitle": "od špiček ve svém oboru",
+      "btn": "Kontaktujte nás"
+    }
+  },
+  "blog": {
+    "title": "Příběhy",
+    "items": [
+      {
+        "title": "Martin Zaťovič",
+        "description": "S Radimem z Finomu spolupracuji již řadu let. Pomohl mi vyřešit ochranu příjmu, což je pro profesionálního sportovce zcela zásadní. Dále mi vytvořil finanční plán tak, abych zabezpečil sebe i svou rodinu do budoucna.",
+        "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648465607/Finom%20Sport/post/post_img_04_w80lkg.jpg",
+        "link": "profesional.php#zatovic"
+      },
+      {
+        "title": "Kryštof Daněk",
+        "description": "Uvědomuji si, že kariéra profesionální sportovce je velmi krátká. Zatím nevím, jak bude vypadat můj život po fotbalové kariéře. Každopádně díky spolupráci s Finom Sport se můžu dlouhodobě připravovat a finančně se dostatečně zajistit.",
+        "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648462351/Finom%20Sport/post/post_img_01_ajov33.jpg",
+        "link": "mladysportovec.php#danek"
+      },
+      {
+        "title": "Pavel Sedláček",
+        "description": "Jsem velice rád za tuto spolupráci. Kluci z Finom Sport mi ukázali, jak předčasně splatit hypotéku, abych profesionální kariéru mohl skončit bez finančních závazků.",
+        "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648465607/Finom%20Sport/post/post_img_05_w7f9ru.jpg",
+        "link": "profesional.php#sedlacek"
+      }
+    ]
+  },
+  "cooperation": {
+    "title": "Spolupracujeme",
+    "subtitle": "s finančním specialistou",
+    "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642152972/FINOM%20GROUP/Finom%20Finance/logo/png/finom-invest_logo_claim_monochrom_2x_h76rkj.png",
+    "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648205241/Finom%20Sport/backgrounds/spoluprace_bg_pzjcnz.jpg"
+  },
+  "footer": {
+    "createdBy": "Created by",
+    "credits": "© 2021 Finom Sport",
+    "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642160813/FINOM%20GROUP/Finom%20Media/logo/svg/finom-media_logo_claim_monochrom_l2lexn.svg"
+  },
+  "pages": {
+    "mladysportovec": {
+      "hero": {
+        "title": "Mladý sportovec",
+        "description": "Už víš, co budeš dělat po kariéře?<br>Víš, co to obnáší být profesionálním hráčem?<br>Co by jsi dělal, kdyby přišlo zranění, které ti ukončí kariéru?",
+        "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648467913/Finom%20Sport/hero/simple/hero-simple_mladysportovec_dhae2w.jpg"
+      },
+      "features": {
+        "feature1": {
+          "title": "Připravila tě škola na to, co udělat s penězi po sportu?",
+          "subtitle": "Stejně jako se sportem je potřeba naučit se základy. <br /> <b>My ti ukážeme jak na to.</b>"
+        },
+        "feature2": {
+          "title": "Co kdyby sis mohl zajistit celý život z příjmů své profesionální kariéry?",
+          "subtitle": "S námi vybuduješ majetek, který ti pomůže splnit své sny a zajistit tě na život po kariéře."
+        }
+      },
+      "posts": [
+        {
+          "title": "Kryštof Daněk",
+          "subtitle": "SK Sigma Olomouc",
+          "sport": "Fotbal",
+          "description": "„Uvědomuji si, že kariéra profesionální sportovce je velmi krátká. Zatím nevím, jak bude vypadat můj život po fotbalové kariéře. Každopádně díky spolupráci s Finom Sport se můžu dlouhodobě připravovat a finančně se dostatečně zajistit.“",
+          "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648462351/Finom%20Sport/post/post_img_01_ajov33.jpg"
+        },
+        {
+          "title": "Sebastian Daňo",
+          "subtitle": "Esport SInners",
+          "sport": "Esport",
+          "description": "„Ve světě Esportu profesionální hráči mohou dosahovat velkých příjmů již v mladém věku.  Proto mi Lukáš z Finom Sport ukázal možnost, jak si zajistit bydlení bez nutnosti jakékoliv dalšího zadlužení.“",
+          "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648462351/Finom%20Sport/post/post_img_02_mosrsj.jpg"
+        },
+        {
+          "title": "Jáchym Šíp",
+          "subtitle": "SK Sigma Olomouc",
+          "sport": "Fotbal",
+          "description": "Jsem teprve na začátku cesty profesionálního hráče. Nicméně vnímám důležitost navazovat spolupráce, které mi pomohou k úspěšnější sportovní kariéře i rozšíření obzorů mimo fotbal.  Proto jsem velice rád za spolupráci s Lukášem z FinomSport, jakožto mým finančním koučem. Společně řešíme otázky spojené s mou kariérou i životem po ní.“",
+          "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648462351/Finom%20Sport/post/post_img_03_kjvejj.jpg"
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Komplexní a bezplatná spolupráce"
+        },
+        {
+          "title": "Nastavení finančního portfolia na míru"
+        },
+        {
+          "title": "Pravidelné konzultace a vzdělávání ve finanční gramotnosti"
+        },
+        {
+          "title": "Rozšíření služeb pro sportovce"
+        }
+      ]
+    },
+    "profesional": {
+      "hero": {
+        "title": "Profesionál",
+        "description": "Drtivá většina sportovců není schopna hospodařit se svými příjmy tak aby si zajistila život po kariéře",
+        "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648465037/Finom%20Sport/hero/simple/hero-simple_profesional_j0xhrk.jpg"
+      },
+      "features": {
+        "feature1": {
+          "title": "Rád by jsi zajistil sebe a svou rodinu díky příjmům ze své kariéry?",
+          "subtitle": "Zajisti si díky profesionální kariéře celý život!"
+        },
+        "feature2": {
+          "title": "Co by jsi dělal, kdyby ti zranění náhle ukončilo kariéru?",
+          "subtitle": "Poradíme ti jak si užít kariéru do posledního momentu."
+        }
+      },
+      "posts": [
+        {
+          "title": "Martin Zaťovič",
+          "subtitle": "HC Kometa Brno",
+          "sport": "Hokej",
+          "description": "S Radimem z Finomu spolupracuji již řadu let. Pomohl mi vyřešit ochranu příjmu, což je pro profesionálního sportovce zcela zásadní. Dále mi vytvořil finanční plán tak, abych zabezpečil sebe i svou rodinu do budoucna.",
+          "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648465607/Finom%20Sport/post/post_img_04_w80lkg.jpg"
+        },
+        {
+          "title": "Pavel Sedláček",
+          "subtitle": "HC Berani Zlín",
+          "sport": "Hokej",
+          "description": "„Jsem velice rád za tuto spolupráci. Kluci z Finom Sport mi ukázali, jak předčasně splatit hypotéku, abych profesionální kariéru mohl skončit bez finančních závazků.“",
+          "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648465607/Finom%20Sport/post/post_img_05_w7f9ru.jpg"
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Komplexní a bezplatná spolupráce"
+        },
+        {
+          "title": "Nastavení finančního portfolia na míru"
+        },
+        {
+          "title": "Pravidelné konzultace a vzdělávání ve finanční gramotnosti"
+        },
+        {
+          "title": "Rozšíření služeb pro sportovce"
+        }
+      ]
+    },
+    "klub": {
+      "hero": {
+        "title": "Sportovní klub",
+        "description": "Využijte služby pro sportovce inspirované západoevropskými standarty.",
+        "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648467913/Finom%20Sport/hero/simple/hero-simple_klub_g9exly.jpg"
+      },
+      "features": {
+        "feature1": {
+          "title": "Zajištění seminářů na půdě klubu s tématy finanční gramotnosti a přípravy života po kariéře.",
+          "subtitle": "Poskytujeme semináře pro jakoukoli věkovou kategorii od žákovských, až po seniorské kategorie.",
+          "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1649415423/Finom%20Sport/seminar_02_megpfy.jpg"
+        }
+      },
+      "posts": [
+        {
+          "title": "Zahraniční kluby odkládají svým svěřencům část výplaty k životu po ukončení kariéry.",
+          "description": "Zajímá vás, jak stejnou službu zajistit i pro váš klub? <br /><b>Společnou edukací posouváme výkon vašich hráčů o level výše!</b>",
+          "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648466852/Finom%20Sport/post/post_img_06_stkg6z.jpg"
+        }
+      ],
+      "logos": [
+        {
+          "link": "https://www.dracisumperk.cz/index.asp",
+          "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648469279/Finom%20Sport/post/club/logo_club_01_ptwdnb.jpg"
+        },
+        {
+          "link": "/",
+          "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648469279/Finom%20Sport/post/club/logo_club_02_mvoned.jpg"
+        },
+        {
+          "link": "/",
+          "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648469279/Finom%20Sport/post/club/logo_club_03_czhsck.jpg"
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Komplexní, bezplatná a dlouhodobá spolupráce"
+        },
+        {
+          "title": "Domluvíme termín, vše ostatní už zajistíme my"
+        },
+        {
+          "title": "Pravidelné konzultace"
+        },
+        {
+          "title": "Zlepšení image a rozšíření služeb pro váš klub"
+        }
+      ]
+    },
+    "agent": {
+      "hero": {
+        "title": "Agent / trenér",
+        "description": "Pojďme sportovcům společně zajistit ty nejlepší podmínky pro kariéru",
+        "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648467575/Finom%20Sport/hero/simple/hero-simple_agent_sjatpb.jpg"
+      },
+      "features": {
+        "feature1": {
+          "title": "Trenéři sestavují plány na kariéru - my na život po kariéře",
+          "subtitle": "Možnost spolupráce a vyniknutí další služby pro sportovce",
+          "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648544610/Finom%20Sport/seminar_01_dcqk5k.jpg"
+        },
+        "feature2": {
+          "title": "Agenti zajišťují hráčům příjmy - my zajišťujeme jejich správu",
+          "subtitle": "Nabízíme možnost prémiových služeb pro vaše klienty a rozšíření pole vaší působnosti",
+          "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648544610/Finom%20Sport/seminar_01_dcqk5k.jpg"
+        }
+      },
+      "posts": [
+        {
+          "title": "Tomáš Malušek",
+          "subtitle": "Finom Group",
+          "sport": "Trenér",
+          "description": "I přes to, že se zaměřuji na zlepšení sportovních výkonů, vnímám také důležitost finanční gramotnosti ve sportu. Spolupráce s kluky z Finom Sport pomůže našim svěřencům jak ze strany aktivní výživy, tak finančního coaching pro sportovce.",
+          "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648625824/Finom%20Sport/post/post_img_06_y1fyjy.jpg"
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Dlouhodobá spolupráce"
+        },
+        {
+          "title": "Doplnění služeb pro vaše klienty"
+        },
+        {
+          "title": "Provázanost klientely"
+        },
+        {
+          "title": "Možnost mimořádných benefitů"
+        }
+      ]
+    },
+    "contact": {
+      "hero": {
+        "title": "Kontakt",
+        "description": "Poznejte blíže členy našeho týmu, nasbírejte potřebné kontakty nebo nám pomocí kontaktního formuláře, zanechte zprávu",
+        "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648471090/Finom%20Sport/hero/simple/hero-simple_contact_aqmx9o.jpg"
+      },
+      "aboutUs": {
+        "title": "O nás",
+        "description": "Má cesta k poradenství vedla od kariéry profesionálního sportovce. Kdy se mně zeptali, zdali vím co budu dělat pokud se mi stane úraz, který mi nedovolí pokračovat v kariéře a zdali vím jaké budou mé příjmy po jejím skončení. Jelikož jsem nevěděl jak na tuto otázku odpovědět, věděl jsem, že je potřeba tenhle problém řešit.",
+        "team": [
+          {
+            "name": "<span>Mgr.</span> Lukáš Ďurďa",
+            "phone": "+420 602 380 003",
+            "email": "durda@finom.cz",
+            "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648472147/Finom%20Sport/team/profile_01_n6gxqt.jpg"
+          },
+          {
+            "name": "František Geist",
+            "phone": "+420 737 957 291",
+            "email": "Geist@finom.cz",
+            "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648472146/Finom%20Sport/team/profile_02_xxbwbe.jpg"
+          },
+          {
+            "name": "Dušan Dostál",
+            "phone": "+420 737 103 758",
+            "email": "dostal@finom.cz",
+            "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648472147/Finom%20Sport/team/profile_03_i5yzec.jpg"
+          }
+        ]
+      }
+    }
+  }
+}

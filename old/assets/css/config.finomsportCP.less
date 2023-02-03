@@ -1,0 +1,81 @@
+@import "main";
+
+:root {
+  //spacers
+  --spacer: .5rem;
+
+  //layout
+  --wrapS: 56.25rem;      //900px
+  --wrapM: 75rem;         //1200px
+  --wrapL: 100rem;        //1600px
+  --wrap: var(--wrapL);
+
+  //calculate
+  --calcWidth: calc((100vw - 30rem) / (75 - 30));
+
+  //typography
+  //font
+  --fontFamily: "Brandon Grotesque", helvetica, sans-serif;
+
+  //sizes
+  --fontSizeH1Min: 2;
+  --fontSizeH1Max: 3;
+  --fontSizeH2Min: 1.5;
+  --fontSizeH2Max: 2;
+  --fontSizeH3Min: 1.25;
+  --fontSizeH3Max: 1.5;
+  --fontSizeH4Min: 1;
+  --fontSizeH4Max: 1;
+  --fontSizeH5Min: .9;
+  --fontSizeH5Max: .9;
+  --fontSizeSmallMin: .75;
+  --fontSizeSmallMax: .75;
+  --fontSizeParagraphMin: .8;
+  --fontSizeParagraphMax: .9;
+  --fontSizeNavMin: .9;
+  --fontSizeNavMax: .9;
+  --fontSizeButtonMin: 1;
+  --fontSizeButtonMax: 1;
+
+  //font-weight
+  .typoPrepare(Weight, Light, 300);
+  .typoPrepare(Weight, Regular, normal);
+  .typoPrepare(Weight, Medium, 500);
+  .typoPrepare(Weight, Bold, bold);
+  .typoPrepare(Weight, Black, 900);
+
+  //line-height
+  --lineHeightSmall: calc(var(--lineHeightBase) * .75);
+  --lineHeightBase: calc(var(--spacer) * 3);
+  --lineHeightLarge: calc(var(--lineHeightBase) * 1.25);
+  --lineHeightExtraLarge: calc(var(--lineHeightBase) * 1.5);
+
+  //colors
+  .colorPrepare(primary, #001F3B);
+  .colorPrepare(secondary, #E79020);
+  .colorPrepare(typography, #000000);
+  .colorPrepare(black, #000000);
+  .colorPrepare(white, #ffffff);
+  .colorPrepare(light, #ca9761);
+  .colorPrepare(pageBg, #ffffff);
+
+  //hoverStates
+  .colorPrepare(primaryHover, #003560);
+  .colorPrepare(secondaryHover, #b46c0d);
+  .colorPrepare(typographyHover, #ffffff);
+  .colorPrepare(blackHover, #ffffff);
+  .colorPrepare(whiteHover, #000000);
+  .colorPrepare(lightHover, #ca9761);
+
+  --shadow: .15rem .15rem .25rem 0 rgb(0 0 0 / 10%);
+
+  //gradients
+  --primaryToTransparent: linear-gradient(180deg, rgba(#e79020, 1) 0%, rgba(#9f5a00, 0) 100%);
+  --secondaryToTransparent: linear-gradient(180deg, rgba(#fff, 1) 0%, rgba(#fff, 0) 100%);
+
+  //images
+  --bgImageHero: url("https://res.cloudinary.com/patrik-vadura/image/upload/v1648036271/Finom%20Sport/backgrounds/background_web_blue_01_ij4dpf.png");
+  --bgImageAbout: url("https://res.cloudinary.com/patrik-vadura/image/upload/v1644236153/antonovic_web/background_theme_01_jsjklx.png");
+  --bgImageReference: url("https://res.cloudinary.com/patrik-vadura/image/upload/v1644236153/antonovic_web/background_theme_01_jsjklx.png");
+  --scrollImage: url('data:image/svg+xml,%3Csvg width="100%25" height="100%25" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"%3E%3Cg transform="matrix(1,0,0,1,-127.72,-965.085)"%3E%3Cg%3E%3Ccircle cx="153.198" cy="990.564" r="25.478" style="fill:rgb(212,126,33);"/%3E%3Cg transform="matrix(2.12318,0,0,2.12318,127.72,965.085)"%3E%3Cpath d="M12,15.5C11.734,15.502 11.479,15.397 11.29,15.21L7.29,11.21C7.102,11.022 6.996,10.766 6.996,10.5C6.996,9.949 7.449,9.496 8,9.496C8.266,9.496 8.522,9.602 8.71,9.79L12,13.1L15.3,9.92C15.49,9.709 15.76,9.589 16.044,9.589C16.592,9.589 17.044,10.04 17.044,10.589C17.044,10.887 16.91,11.17 16.68,11.36L12.68,15.22C12.497,15.396 12.254,15.496 12,15.5Z" style="fill-rule:nonzero;"/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+}

@@ -1,0 +1,26 @@
+{
+    "blog": {
+      "title": "Nadpis blogu",
+      "items": [
+        {
+          "title": "Test Testovi4",
+          "description": "Lorem ipsum dolor sit amet adipiscing elit nue vue controlat seperentum est.",
+          "img": "https://picsum.photos/seed/picsum/200/300",
+          "link": "profesional.php#zatovic"
+        },
+        {
+          "title": "Kryštof Daněk",
+          "description": "Uvědomuji si, že kariéra profesionální sportovce je velmi krátká. Zatím nevím, jak bude vypadat můj život po fotbalové kariéře. Každopádně díky spolupráci s Finom Sport se můžu dlouhodobě připravovat a finančně se dostatečně zajistit.",
+          "img": "https://picsum.photos/seed/picsum/200/300",
+          "link": "mladysportovec.php#danek"
+        },
+        {
+          "title": "Pavel Sedláček",
+          "description": "Jsem velice rád za tuto spolupráci. Kluci z Finom Sport mi ukázali, jak předčasně splatit hypotéku, abych profesionální kariéru mohl skončit bez finančních závazků.",
+          "img": "https://picsum.photos/seed/picsum/200/300",
+          "link": "profesional.php#sedlacek"
+        }
+      ]
+    }
+  }
+  

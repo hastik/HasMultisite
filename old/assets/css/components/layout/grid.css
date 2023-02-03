@@ -1,0 +1,59 @@
+.grid {
+  /* stylelint-disable */
+  /* stylelint-enable */
+}
+.grid-2 {
+  display: grid;
+  align-items: var(--alignItems, center);
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  grid-column-gap: 6rem;
+  row-gap: 4rem;
+  overflow: hidden;
+}
+.grid-3 {
+  display: grid;
+  align-items: var(--alignItems, center);
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+  grid-column-gap: 4rem;
+  row-gap: 3rem;
+  overflow: hidden;
+}
+.grid-4 {
+  display: grid;
+  align-items: var(--alignItems, center);
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  grid-column-gap: 4rem;
+  row-gap: 3rem;
+  overflow: hidden;
+}
+.grid-5 {
+  display: grid;
+  align-items: var(--alignItems, center);
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  grid-column-gap: 2rem;
+  row-gap: 2rem;
+  overflow: hidden;
+}
+.grid-6 {
+  display: grid;
+  align-items: var(--alignItems, center);
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+  grid-column-gap: 2rem;
+  row-gap: 2rem;
+  overflow: hidden;
+}
+.grid-7 {
+  display: grid;
+  align-items: var(--alignItems, center);
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
+  grid-column-gap: 2rem;
+  row-gap: 2rem;
+  overflow: hidden;
+}
+/*# sourceMappingURL=grid.css.map */

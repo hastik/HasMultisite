@@ -1,0 +1,116 @@
+.timeline {
+  text-align: center;
+
+  &Content {
+    position: relative;
+
+    &::before {
+      content: '';
+      background: var(--timelineLineColor);
+      width: var(--timelineLineWidth);
+      height: 100%;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: .2;
+
+      @media (max-width: @screenSm) {
+        left: 2rem;
+      }
+    }
+  }
+
+  &Item {
+    width: 100%;
+    margin-bottom: 4rem;
+
+    &:nth-child(even) {
+      .timelineInner {
+        float: none;
+
+        @media (min-width: @screenMd) {
+          float: right;
+          left: 5rem;
+        }
+      }
+    }
+
+    &:nth-child(odd) {
+      .timelineInner {
+        @media (min-width: @screenMd) {
+          right: 5rem;
+        }
+      }
+    }
+
+
+    &:nth-child(1) {
+      .timelineDot {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-left: -20px;
+      }
+    }
+
+    &:nth-child(2) {
+      .timelineDot {
+        width: 2rem;
+        height: 2rem;
+        margin-left: -16px;
+      }
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+
+  &Inner {
+    position: relative;
+    text-align: left;
+    width: 60%;
+    padding: 1.5rem;
+    background: var(--timelineItemBackgroud);
+
+    @media (max-width: @screenSm) {
+      max-width: 100%;
+      width: auto;
+      margin-left: 3.5rem;
+    }
+
+    h4 {
+      margin: 0;
+      color: var(--timelineItemTitleColor);
+
+      &.numbering {
+        color: var(--timelineItemNumberingColor);
+      }
+    }
+
+    p {
+      color: var(--timelineItemTextColor);
+    }
+  }
+
+  &Dot {
+    width: 1.5rem;
+    height: 1.5rem;
+    background: var(--timelineDotColor);
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-top: 25px;
+    margin-left: -12px;
+
+    @media (max-width: @screenSm) {
+      left: 2rem;
+    }
+  }
+
+  //variants
+  &-01 {
+    //
+  }
+}

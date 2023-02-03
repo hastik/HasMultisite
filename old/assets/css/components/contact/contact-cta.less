@@ -1,0 +1,40 @@
+.contact-cta {
+  .flex(column, center, center);
+
+  width: 100%;
+  z-index: 0;
+}
+
+.contact-cta {
+  //states
+  &-01 {
+    color: var(--secondary);
+    background: var(--primary);
+
+    .grid {
+      &-2 {
+        padding: 2rem 0;
+      }
+    }
+
+    h2 {
+      margin-bottom: 0;
+      font-size: 2.5rem;
+      font-weight: var(--fontWeightMedium);
+    }
+
+    h3 {
+      margin-top: 0;
+      font-size: 2.5rem;
+      font-weight: var(--fontWeightLight);
+    }
+
+    .btn {
+      text-transform: uppercase;
+
+      @media (min-width: @screenLg) {
+        float: right;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Již brzy",
+  "subtitle": "Zabezpečujeme finanční budoucnost pro",
+  "mediaContent": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648036271/Finom%20Sport/backgrounds/background_web_blue_01_ij4dpf.png",
+  "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648035910/Finom%20Sport/logo/finom-invest_logo_horizontal_2x_jk3sxt.png",
+  "contact": [
+    {
+      "type": "tel",
+      "link": "+420 602 380 003"
+    },
+    {
+      "type": "mailto",
+      "link": "info@finomsport.cz"
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Mladé sportovce",
+      "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648133266/Finom%20Sport/icon_young_ud1zoo.svg"
+    },
+    {
+      "title": "Profesionály",
+      "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648133266/Finom%20Sport/icon_profesional_hrxg82.svg"
+    },
+    {
+      "title": "Sportovní kluby",
+      "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648133266/Finom%20Sport/icon_team_rftrnk.svg"
+    },
+    {
+      "title": "Agenty, trenéry",
+      "img": "https://res.cloudinary.com/patrik-vadura/image/upload/v1648133266/Finom%20Sport/icon_agent_llfy61.svg"
+    }
+  ],
+  "footer": {
+    "credits": "© 2021 Finom Sport",
+    "logo": "https://res.cloudinary.com/patrik-vadura/image/upload/v1642160813/FINOM%20GROUP/Finom%20Media/logo/svg/finom-media_logo_claim_negative_nukouh.svg"
+  }
+}

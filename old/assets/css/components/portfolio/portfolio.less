@@ -1,0 +1,56 @@
+.portfolio {
+  &Masonry {
+    column-width: var(--portfolioMasonryColWidth);
+    column-gap: var(--portfolioMasonryColGap);
+    padding: 0;
+    margin-bottom: 5rem;
+
+    @media (min-width: @screenLg) {
+      width: var(--wrap);
+    }
+
+    &:hover {
+      img {
+        @media (min-width: @screenLg) {
+          opacity: var(--portfolioMasonryHoverOpacity);
+        }
+      }
+    }
+
+    .item {
+      img {
+        width: 100%;
+        display: block;
+        transition: all .8s ease-in-out;
+      }
+
+      &:hover {
+        img {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  h2 {
+    text-align: center;
+    color: var(--portfolioTitleColor);
+    margin-bottom: 3rem;
+  }
+
+  .description {
+    text-align: center;
+    color: var(--portfolioDescriptionColor);
+    margin-bottom: 5rem;
+  }
+
+  .counter {
+    &Item {
+      color: var(--portfolioCounterColor);
+    }
+  }
+
+  &-01 {
+    //
+  }
+}

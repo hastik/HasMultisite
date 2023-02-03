@@ -1,0 +1,61 @@
+.border-primary {
+  border: 0.15rem solid var(--primary);
+}
+.border-secondary {
+  border: 0.15rem solid var(--secondary);
+}
+.border-bold-primary {
+  border: 0.25rem solid var(--primary);
+}
+.border-bold-secondary {
+  border: 0.25rem solid var(--secondary);
+}
+.border-l-primary {
+  border-left: 0.15rem solid var(--primary);
+}
+.border-l-secondary {
+  border-left: 0.15rem solid var(--secondary);
+}
+.border-l-bold-primary {
+  border-left: 0.25rem solid var(--primary);
+}
+.border-l-bold-secondary {
+  border-left: 0.25rem solid var(--secondary);
+}
+.border-r-primary {
+  border-right: 0.15rem solid var(--primary);
+}
+.border-r-secondary {
+  border-right: 0.15rem solid var(--secondary);
+}
+.border-r-bold-primary {
+  border-right: 0.25rem solid var(--primary);
+}
+.border-r-bold-secondary {
+  border-right: 0.25rem solid var(--secondary);
+}
+.border-t-primary {
+  border-top: 0.15rem solid var(--primary);
+}
+.border-t-secondary {
+  border-top: 0.15rem solid var(--secondary);
+}
+.border-t-bold-primary {
+  border-top: 0.25rem solid var(--primary);
+}
+.border-t-bold-secondary {
+  border-top: 0.25rem solid var(--secondary);
+}
+.border-b-primary {
+  border-bottom: 0.15rem solid var(--primary);
+}
+.border-b-secondary {
+  border-bottom: 0.15rem solid var(--secondary);
+}
+.border-b-bold-primary {
+  border-bottom: 0.25rem solid var(--primary);
+}
+.border-b-bold-secondary {
+  border-bottom: 0.25rem solid var(--secondary);
+}
+/*# sourceMappingURL=border.css.map */

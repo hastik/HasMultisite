@@ -1,0 +1,7 @@
+Gitflow https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+
+Master - hlavní
+Dev - hlavní vývojová větev
+Feature Branches - konrkétní vývojové větev
+
+Feature branches se mergují do Dev, Dev před "releasem" do masteru

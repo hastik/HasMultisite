@@ -1,0 +1,13 @@
+.benefits {
+  width: 100%;
+}
+.benefits-01 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.benefits-01 img {
+  width: 3rem;
+  height: 3rem;
+  float: left;
+}
+/*# sourceMappingURL=benefits.css.map */

@@ -1,0 +1,199 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 0;
+
+  .columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+    grid-column-gap: unit(2rem, rem);
+  }
+
+  &Box {
+    padding: 2rem;
+
+    img {
+      height: 3rem;
+    }
+
+    h4 {
+      margin-bottom: 0;
+      line-height: 1;
+      text-transform: uppercase;
+      transition: all 300ms ease-in-out;
+    }
+
+    p,
+    a {
+      font-size: 95%;
+      line-height: 1.5;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: all 300ms ease-in-out;
+    }
+  }
+
+  &Complete {
+    text-align: center;
+
+    h3 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.contact {
+  //states
+  &-01 {
+    .wrapS {
+      margin-bottom: 4rem;
+      padding: clamp(unit(1, rem), calc(unit(1, rem) + (1.5 - 1) * var(--calcWidth)), unit(1.5, rem));
+    }
+
+    .grid {
+      &-4 {
+        padding: 2rem 0;
+      }
+    }
+
+    h2 {
+      text-align: center;
+      color: var(--white);
+    }
+
+    .action {
+      display: flex;
+      justify-content: center;
+
+      a {
+        text-transform: uppercase;
+      }
+    }
+
+    .contact {
+      &Box {
+        text-align: center;
+        color: var(--white);
+
+        p,
+        a {
+          color: var(--white);
+        }
+
+        &:hover {
+          @media (min-width: @screenLg) {
+            background-color: rgba(#bb802b, .5);
+
+            h4 {
+              color: var(--primary);
+              transform: scale(1.2);
+            }
+          }
+        }
+      }
+    }
+
+    .contactComplete {
+      padding-top: 2rem;
+      border-top: .25rem solid var(--primary);
+      color: var(--white);
+    }
+  }
+
+  &-02 {
+    .grid {
+      &-2 {
+        padding: 2rem 0;
+      }
+    }
+
+    h2 {
+      font-weight: var(--fontWeightMedium);
+      color: var(--typography);
+    }
+
+    .action {
+      display: flex;
+      justify-content: flex-start;
+
+      a {
+        text-transform: uppercase;
+      }
+    }
+
+    .contact {
+      &Box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding: .5rem 2rem;
+        text-align: left;
+        color: var(--primary);
+
+        p,
+        a {
+          color: var(--primary);
+        }
+
+        .content {
+          padding-left: 1rem;
+        }
+
+        &:hover {
+          @media (min-width: @screenLg) {
+            h4 {
+              color: var(--secondary);
+            }
+          }
+        }
+      }
+    }
+
+    .contactComplete {
+      padding-top: 2rem;
+      border-top: .25rem solid var(--secondary);
+      color: var(--typography);
+    }
+  }
+}
+
+.contact-simple {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 0;
+
+  //states
+  &-01 {
+    h2 {
+      text-align: center;
+      color: var(--primary);
+    }
+
+    h4 {
+      text-align: center;
+      margin: 0;
+      color: var(--secondary);
+    }
+
+    p {
+      text-align: center;
+      margin: 0;
+    }
+
+    .wrapS {
+      margin-bottom: 4rem;
+      padding: clamp(unit(1, rem), calc(unit(1, rem) + (1.5 - 1) * var(--calcWidth)), unit(1.5, rem));
+    }
+  }
+}

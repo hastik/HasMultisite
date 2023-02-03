@@ -1,0 +1,51 @@
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: clamp(1rem, calc(1rem + (3 - 1) * var(--calcWidth)), 3rem);
+}
+.aboutUsContent h2 {
+  margin-bottom: 5rem;
+}
+.aboutUsContent p {
+  text-align: justify;
+}
+.aboutUs-01 {
+  background-image: url("https://res.cloudinary.com/patrik-vadura/image/upload/v1643800299/marak_web/bg_texture_03_ek6txy.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat, repeat;
+  width: 100%;
+}
+.aboutUs-01Content h2 {
+  color: var(--white);
+}
+.aboutUs-01Content h4 {
+  color: var(--primary);
+}
+.aboutUs-01Content p {
+  color: var(--white);
+}
+.aboutUs-01 .grid-3 {
+  margin-top: 4rem;
+  align-items: flex-start !important;
+}
+.aboutUs-01 .aboutUs {
+  background-image: url("https://res.cloudinary.com/patrik-vadura/image/upload/v1643800299/marak_web/bg_texture_03_ek6txy.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat, repeat;
+  width: 100%;
+}
+.aboutUs-01 .aboutUsContent h2 {
+  color: var(--white);
+}
+.aboutUs-01 .aboutUsContent h4 {
+  color: var(--primary);
+}
+.aboutUs-01 .aboutUsContent p {
+  color: var(--white);
+}
+/*# sourceMappingURL=aboutUs.css.map */

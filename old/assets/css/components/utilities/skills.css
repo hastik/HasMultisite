@@ -1,0 +1,9 @@
+.skills-01 {
+  padding: 5rem 0rem;
+  font-size: 1rem;
+}
+.skills-01 span {
+  font-size: clamp(2rem, calc(1.5rem + (2.5 - 2) * var(--calcWidth)), 2rem);
+  color: var(--primary);
+}
+/*# sourceMappingURL=skills.css.map */

@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*,
+*:focus,
+*:active {
+  outline: none;
+}
+html {
+  font-family: var(--fontFamily);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background: var(--pageBg);
+  color: var(--bodyTextColor);
+  overflow-x: hidden;
+  white-space: normal;
+}
+a {
+  color: var(--linkColor);
+  text-decoration: var(--linkDecoration);
+}
+a:hover {
+  text-decoration: var(--linkHoverDecoration);
+}
+img,
+iframe {
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+/*# sourceMappingURL=global.css.map */

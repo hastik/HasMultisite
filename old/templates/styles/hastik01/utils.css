@@ -1,0 +1,95 @@
+
+
+
+.grdid {
+    display: grid;
+
+    --min: calc(var(--step-0) * var(--grid-item-minimum,18) );   
+
+    --min: calc(var(--space-2xs-3xl) * 10);
+    
+    
+    --middle: calc( (100% - calc( ( var(--grid-cols) - 1 ) * var(--gutter)) )  /var(--grid-cols)  );  
+
+
+    --min: var(--middle);
+    --max: calc( var(--wrapper-max-width,100vw)/var(--grid-cols) - calc( ( var(--grid-cols) - 1 ) * var(--gutter)));
+
+    grid-template-columns: repeat(
+      var(--grid-placement, auto-fit),
+      minmax(clamp(min(var(--min),100%),var(--middle),var(--max)), 1fr )
+    );
+
+    
+    
+    gap: var(--gutter, var(--space-s-l));
+  }
+
+
+  .grid {
+    display: grid;
+
+    --min:  calc( ( var(--wrapper-max-width,100vw) - ( (var(--grid-cols) - 1) * var(--gutter) ) ) / var(--grid-cols  ) ) ; 
+    --min: calc(var(--step-0) * var(--grid-item-minimum,18) );     
+    --min: calc(var(--space-m-l) * 10);
+    
+    --middle: calc( (100% - ( (var(--grid-cols) - 1) * var(--gutter) ) ) / var(--grid-cols  ) ) ;  
+
+
+    --max: calc( ( var(--wrapper-max-width,100vw) - ( (var(--grid-cols) - 1) * var(--gutter) ) ) / var(--grid-cols  ) )  ;  
+
+    grid-template-columns: repeat(
+      var(--grid-placement, auto-fit),
+      minmax(clamp(min(var(--min),100%),var(--middle),var(--max)), 1fr )
+    );
+  
+    gap: var(--gutter, var(--space-s-l));
+  }
+  
+  .grid[data-rows='masonry'] {
+    grid-template-rows: masonry;
+    align-items: start;
+  }
+  
+  .grid[data-layout='50-50'] {
+    --grid-placement: auto-fit;
+    --grid-min-item-size: clamp(16rem, 50vw, 26rem);
+  }
+  
+
+
+/* 
+FLOW UTILITY
+Like the Every Layout stack: https://every-layout.dev/layouts/stack/
+Info about this implementation: https://piccalil.li/quick-tip/flow-utility/ 
+*/
+.flow > * + * {
+  margin-top: var(--flow-space, 1em);
+}
+
+
+/**
+ * REGION 
+ * Add consistent vertical padding to create regions of content 
+ * Can either be configured by setting --region-space or use a default from the space scale
+ */
+ .region {
+  padding-top: var(--region-space, var(--space-l-2xl));
+  padding-bottom: var(--region-space, var(--space-l-2xl));
+}
+
+
+/**
+ * WRAPPER
+ * Sets a max width, adds a consistent gutter and horizontally
+ * centers the contents
+ * Info: https://piccalil.li/quick-tip/use-css-clamp-to-create-a-more-flexible-wrapper-utility/
+ */
+ .wrapper {
+  max-width: var(--wrapper-max-width, 85rem);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  position: relative;
+}

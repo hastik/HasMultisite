@@ -1,0 +1,196 @@
+@import "../../assets/css/main";
+@import "styles/custom";
+
+:root {
+  //spacers
+  --spacer: .5rem;
+
+  //layout
+  --wrapS: 56.25rem;  //900px
+  --wrapM: 75rem;     //1200px
+  --wrapL: 100rem;    //1600px
+  --wrap: var(--wrapL);
+
+  //calculate
+  --calcWidth: calc((100vw - 30rem) / (75 - 30));
+
+  //typography
+  //font
+  --fontFamily: "Brandon Grotesque", helvetica, sans-serif;
+
+  //sizes
+  --fontSizeH1Min: 2;
+  --fontSizeH1Max: 3;
+  --fontSizeH2Min: 1.5;
+  --fontSizeH2Max: 2;
+  --fontSizeH3Min: 1.25;
+  --fontSizeH3Max: 1.5;
+  --fontSizeH4Min: 1;
+  --fontSizeH4Max: 1;
+  --fontSizeH5Min: .9;
+  --fontSizeH5Max: .9;
+  --fontSizeSmallMin: .75;
+  --fontSizeSmallMax: .75;
+  --fontSizeParagraphMin: .8;
+  --fontSizeParagraphMax: .9;
+  --fontSizeNavMin: .9;
+  --fontSizeNavMax: .9;
+  --fontSizeButtonMin: 1;
+  --fontSizeButtonMax: 1;
+
+  //font-weight
+  .typoPrepare(Weight, Light, 300);
+  .typoPrepare(Weight, Regular, normal);
+  .typoPrepare(Weight, Medium, 500);
+  .typoPrepare(Weight, Bold, bold);
+  .typoPrepare(Weight, Black, 900);
+
+  //line-height
+  --lineHeightSmall: calc(var(--lineHeightBase) * .75);
+  --lineHeightBase: calc(var(--spacer) * 3);
+  --lineHeightLarge: calc(var(--lineHeightBase) * 1.25);
+  --lineHeightExtraLarge: calc(var(--lineHeightBase) * 1.5);
+
+  //colors
+  .colorPrepare(primary, #bb802b);
+  .colorPrepare(secondary, #ffffff);
+  .colorPrepare(typography, #000000);
+  .colorPrepare(black, #000000);
+  .colorPrepare(white, #ffffff);
+  .colorPrepare(light, #d6b380);
+  .colorPrepare(gray, #cccccc);
+  .colorPrepare(pageBg, #000000);
+
+  //hoverStates
+  .colorPrepare(primaryHover, #bb802b);
+  .colorPrepare(secondaryHover, #000000);
+  .colorPrepare(typographyHover, #ffffff);
+  .colorPrepare(blackHover, #ffffff);
+  .colorPrepare(whiteHover, #000000);
+  .colorPrepare(grayHover, #7e7e7e);
+  .colorPrepare(lightHover, #d6b380);
+
+  --shadow: .15rem .15rem .25rem 0 rgb(0 0 0 / 10%);
+
+  //gradients
+  --primaryToTransparent: linear-gradient(180deg, rgba(#bb802b, 1) 0%, rgba(#bb802b, 0) 100%);
+  --secondaryToTransparent: linear-gradient(180deg, rgba(#fff, 1) 0%, rgba(#fff, 0) 100%);
+
+  //GLOBAL
+  --pageBg: var(--black);
+  --bodyTextColor: var(--typography);
+  --linkColor: var(--secondary);
+  --linkDecoration: none;
+  --linkHoverDecoration: none;
+
+  //Input
+  --inputBackground: var(--white);
+  --inputOutline: transparent;
+  --inputOutlineHover: .15rem solid var(--primary);
+  --inputBackgroundHover: var(--white);
+  --inputLabelTextColor: var(--primary);
+  --inputLabelTextTransform: none;
+  --inputPlaceholderTextColor: var(--primary);
+  --inputPlaceholderTextSize: transparent;
+
+  //HEADER
+  --headerBackgroundColor: transparent;
+  --headerScrollBackground: var(--white);
+  --headerShadow: true;
+  --headerLinkColor: var(--white);
+  --headerLinkHoverColor: var(--secondary);
+  --headerScrollLinkColor: --var(typography);
+  --headerLinkSpecialBackground: var(--secondary);
+  --headerLinkSpecialColor: var(--primary);
+  --headerLinkSpecialHoverBackground: var(--secondaryHover);
+  --headerLinkSpecialHoverColor: var(--primaryHover);
+  --headerLinkSize: 1rem;
+  --fontWeightRegular: var(--fontWeightRegular);
+  --headerLinkTransform: uppercase;
+  --headerLinkBorderSize: .25rem;
+  --headerLinkBorderColor: transparent;
+  --headerLinkBorderColorHover: transparent;
+  --iconWidth: 2rem;
+
+  // Header - mobile navigation
+  --headerMobileNavBackgroundColor: var(--white);
+  --headerMobileNavIconColor: var(--white);
+  --headerMobileScrollNavIconColor: var(--primary);
+  --headerMobileLinkColor: var(--typography);
+
+  //HERO
+  --heroH1TextSize: 5.5;
+  --heroH1TextTransform: uppercase;
+  --heroH1TextColor: var(--white);
+  --heroH1TextWeight: var(--fontWeightLight);
+
+  //SERVICES
+  --servicesTitleColor: var(--white);
+  //Box
+  --serviceBoxBackground: transparent;
+  --serviceBoxBackgroundHover: ~"rgba(var(--primary_rgb), .5)";
+  --serviceBoxBorder: none;
+  --serviceBoxTitleColor: var(--white);
+  --serviceBoxTitleHoverColor: var(--primary);
+  --serviceBoxTitleWeight: var(--fontWeightMedium);
+  --serviceBoxTitleTransform: uppercase;
+  --serviceBoxContentColor: var(--white);
+  --serviceBoxContentSize: 125%;
+  --serviceBoxContentWeight: var(--fontWeightLight);
+  --serviceBoxContentTransform: none;
+
+  //ABOUT
+  //--title
+  --aboutTitleColor: var(--white);
+  --aboutTitleWeight: var(--fontWeightBold);
+  --aboutTitleTransform: uppercase;
+  //--subtitle
+  --aboutSubtitleColor: var(--primary);
+  --aboutSubtitleWeight: var(--fontWeightMedium);
+  --aboutSubtitleTransform: uppercase;
+  //--paragraph
+  --aboutParagraphColor: var(--white);
+  --aboutParagraphWeight: var(--fontWeightLight);
+  --aboutParagraphTransform: none;
+  //--counter
+  --aboutCounterColor: var(--white);
+  --aboutCounterSpanColor: var(--primary);
+
+  //REFERENCE
+  --referenceSliderTitleColor: var(--white);
+  //Slider
+  // --avatar
+  --referenceSliderAvatarSize: 6rem;
+  --referenceSliderAvatarBorderRadius: 100%;
+  // --dots
+  --referenceSliderDotColor: var(--gray);
+  --referenceSliderDotColorChecked: var(--primary);
+  --referenceSliderDotSize: .5rem;
+  // --content + company
+  --referenceSliderContentColor: var(--white);
+  --referenceSliderContentTextSize: 1rem;
+  --referenceSliderContentTextWeight: var(--fontWeightLight);
+  --referenceSliderContentTextTransform: none;
+  // --name
+  --referenceSliderNameColor: var(--white);
+  --referenceSliderNameTextSize: 1rem;
+  --referenceSliderNameTextWeight: var(--fontWeightBold);
+  --referenceSliderNameTextTransform: uppercase;
+
+  //PORTFOLIO
+  --portfolioTitleColor: var(--white);
+  --portfolioDescriptionColor: var(--white);
+  //--counter
+  --portfolioCounterColor: var(--white);
+  //Masonry
+  --portfolioMasonryColWidth: 27rem;
+  --portfolioMasonryColGap: 0;
+  --portfolioMasonryHoverOpacity: .28;
+
+  //FOOTER
+  --footerBackground: var(--primary);
+  --footerCreditsTextColor: var(--white);
+  --footerCreditsTextSize: 1rem;
+  --footerCreditsTextWeight: var(--fontWeightLight);
+  --footerCreditsTextTransform: none;
+}

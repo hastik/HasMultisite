@@ -1,0 +1,34 @@
+.boxed-wrap {
+  .row {
+    .col-6 {
+      .grid {
+        &-2 {
+          row-gap: 0 !important;
+        }
+      }
+    }
+  }
+
+  //layout states
+  &-translated {
+    @media (min-width: @screenMd) {
+      margin-bottom: -5rem;
+      transform: translateY(-50%);
+    }
+  }
+
+  &-fullwidth {
+    width: 100%;
+  }
+
+  //color states
+  &-primary {
+    background: var(--primary);
+    color: var(--white);
+  }
+
+  &-secondary {
+    background: var(--secondary);
+    color: var(--primary);
+  }
+}

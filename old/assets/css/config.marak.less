@@ -1,0 +1,81 @@
+@import "main";
+
+:root {
+  //spacers
+  --spacer: .5rem;
+
+  //layout
+  --wrapS: 56.25rem;  //900px
+  --wrapM: 75rem;     //1200px
+  --wrapL: 100rem;    //1600px
+  --wrap: var(--wrapL);
+
+  //calculate
+  --calcWidth: calc((100vw - 30rem) / (75 - 30));
+
+  //typography
+  //font
+  --fontFamily: "Brandon Grotesque", helvetica, sans-serif;
+
+  //sizes
+  --fontSizeH1Min: 2;
+  --fontSizeH1Max: 3;
+  --fontSizeH2Min: 1.5;
+  --fontSizeH2Max: 2;
+  --fontSizeH3Min: 1.25;
+  --fontSizeH3Max: 1.5;
+  --fontSizeH4Min: 1;
+  --fontSizeH4Max: 1;
+  --fontSizeH5Min: .9;
+  --fontSizeH5Max: .9;
+  --fontSizeSmallMin: .75;
+  --fontSizeSmallMax: .75;
+  --fontSizeParagraphMin: .8;
+  --fontSizeParagraphMax: .9;
+  --fontSizeNavMin: .9;
+  --fontSizeNavMax: .9;
+  --fontSizeButtonMin: 1;
+  --fontSizeButtonMax: 1;
+
+  //font-weight
+  .typoPrepare(Weight, Light, 300);
+  .typoPrepare(Weight, Regular, normal);
+  .typoPrepare(Weight, Medium, 500);
+  .typoPrepare(Weight, Bold, bold);
+  .typoPrepare(Weight, Black, 900);
+
+  //line-height
+  --lineHeightSmall: calc(var(--lineHeightBase) * .75);
+  --lineHeightBase: calc(var(--spacer) * 3);
+  --lineHeightLarge: calc(var(--lineHeightBase) * 1.25);
+  --lineHeightExtraLarge: calc(var(--lineHeightBase) * 1.5);
+
+  //colors
+  .colorPrepare(primary, #bb802b);
+  .colorPrepare(secondary, #ffffff);
+  .colorPrepare(typography, #000000);
+  .colorPrepare(black, #000000);
+  .colorPrepare(white, #ffffff);
+  .colorPrepare(light, #d6b380);
+  .colorPrepare(pageBg, #000000);
+
+  //hoverStates
+  .colorPrepare(primaryHover, #bb802b);
+  .colorPrepare(secondaryHover, #000000);
+  .colorPrepare(typographyHover, #ffffff);
+  .colorPrepare(blackHover, #ffffff);
+  .colorPrepare(whiteHover, #000000);
+  .colorPrepare(lightHover, #d6b380);
+
+  --shadow: .15rem .15rem .25rem 0 rgb(0 0 0 / 10%);
+
+  //gradients
+  --primaryToTransparent: linear-gradient(180deg, rgba(#bb802b, 1) 0%, rgba(#bb802b, 0) 100%);
+  --secondaryToTransparent: linear-gradient(180deg, rgba(#fff, 1) 0%, rgba(#fff, 0) 100%);
+
+  //images
+  --bgImageHero: url("https://res.cloudinary.com/patrik-vadura/image/upload/v1641902355/marak_web/Webdesign_JM_01_woqzkk.jpg");
+  --bgImageAbout: url("https://res.cloudinary.com/patrik-vadura/image/upload/v1644910998/marak_web/bg_texture_04_1_zhyubt.png");
+  --bgImageReference: url("https://res.cloudinary.com/patrik-vadura/image/upload/v1643800299/marak_web/bg_texture_03_ek6txy.png");
+  --scrollImage: url('data:image/svg+xml,%3Csvg width="100%25" height="100%25" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"%3E%3Cg transform="matrix(1,0,0,1,-415.332,-854.593)"%3E%3Cg%3E%3Cg transform="matrix(0.701396,0,0,0.701396,131.482,268.928)"%3E%3Crect x="404.693" y="834.999" width="71.257" height="71.257" style="fill:rgb(187,128,43);"/%3E%3C/g%3E%3Cg transform="matrix(1,0,0,0.756433,-12.8734,220.966)"%3E%3Cpath d="M462.57,873.135L453.195,889.66L443.82,873.135L462.57,873.135Z" style="fill:white;"/%3E%3C/g%3E%3Cg transform="matrix(1,0,0,0.756433,-12.8734,220.966)"%3E%3Cpath d="M451.111,851.716L451.111,876.44C451.111,877.96 452.045,879.194 453.195,879.194C454.345,879.194 455.278,877.96 455.278,876.44L455.278,851.716C455.278,850.196 454.345,848.962 453.195,848.962C452.045,848.962 451.111,850.196 451.111,851.716Z" style="fill:white;"/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A');
+}

@@ -1,0 +1,23 @@
+:root {
+  --primary-75: rgba(var(--primary), 0.75);
+  --primary-50: rgba(var(--primary), 0.5);
+  --primary-25: rgba(var(--primary), 0.25);
+  --primary-10: rgba(var(--primary), 0.1);
+  --primary-05: rgba(var(--primary), 0.05);
+  --secondary-75: rgba(var(--secondary), 0.75);
+  --secondary-50: rgba(var(--secondary), 0.5);
+  --secondary-25: rgba(var(--secondary), 0.25);
+  --secondary-10: rgba(var(--secondary), 0.1);
+  --secondary-05: rgba(var(--secondary), 0.05);
+  --white-75: rgba(var(--white), 0.75);
+  --white-50: rgba(var(--white), 0.5);
+  --white-25: rgba(var(--white), 0.25);
+  --white-10: rgba(var(--white), 0.1);
+  --white-05: rgba(var(--white), 0.05);
+  --black-75: rgba(var(--black), 0.75);
+  --black-50: rgba(var(--black), 0.5);
+  --black-25: rgba(var(--black), 0.25);
+  --black-10: rgba(var(--black), 0.1);
+  --black-05: rgba(var(--black), 0.05);
+}
+/*# sourceMappingURL=colors.css.map */

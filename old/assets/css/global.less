@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*,
+*:focus,
+*:active {
+  outline: none;
+}
+
+html {
+  font-family: var(--fontFamily);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background: var(--pageBg);
+  color: var(--bodyTextColor);
+  overflow-x: hidden;
+  white-space: normal;
+}
+
+a {
+  color: var(--linkColor);
+  text-decoration: var(--linkDecoration);
+
+  &:hover {
+    text-decoration: var(--linkHoverDecoration);
+  }
+}
+
+img,
+iframe {
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+
+// functions
+.for(@list, @code) {
+  & {
+    .loop(@i:1) when (@i =< length(@list)) {
+      @value: extract(@list, @i);
+
+      @code();
+
+      .loop(@i + 1);
+    }
+
+    .loop();
+  }
+}

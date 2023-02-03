@@ -1,0 +1,138 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--white);
+  box-shadow: var(--shadow);
+  text-transform: uppercase;
+  z-index: 3;
+}
+header .topBar {
+  padding: 0.5rem;
+  text-align: center;
+  background: var(--primary);
+  color: var(--secondary);
+  font-size: var(--fontSizeParagraph);
+  width: 100%;
+}
+header .header {
+  padding: 0.5rem;
+  width: 100%;
+}
+@media (min-width: 75rem) {
+  header .header {
+    width: var(--wrapM);
+  }
+}
+header .header ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background: var(--white);
+}
+@media (min-width: 48rem) {
+  header .header ul {
+    flex-direction: row;
+  }
+}
+header .header ul li a {
+  display: block;
+  padding: 1rem;
+  font-size: var(--fontSizeNav);
+  font-weight: var(--fontWeightRegular);
+  text-decoration: none;
+  color: var(--typography);
+  border-top: 0.25rem solid var(--secondary);
+  opacity: 0.5;
+}
+header .header ul li a:hover {
+  opacity: 1;
+}
+@media (min-width: 37.5rem) {
+  header .header ul li a:hover {
+    border-top: 0.25rem solid var(--primary);
+  }
+}
+header .header .logo img {
+  height: 3.5rem;
+}
+@media (min-width: 48rem) {
+  header .header .logo img {
+    position: absolute;
+    height: 5rem;
+    transform: translateY(2rem);
+  }
+}
+header .header .headerNavigation {
+  clear: both;
+  float: left;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+@media (min-width: 48rem) {
+  header .header .headerNavigation {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+}
+header .header .headerNavigationIcon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 1.75rem 1.25rem;
+  position: relative;
+  user-select: none;
+}
+@media (min-width: 48rem) {
+  header .header .headerNavigationIcon {
+    display: none;
+  }
+}
+header .header .headerNavigationIcon .navIcon {
+  background: #333;
+  display: block;
+  height: 0.15rem;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 1rem;
+}
+header .header .headerNavigationIcon .navIcon::before,
+header .header .headerNavigationIcon .navIcon::after {
+  background: #333;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+header .header .headerNavigationIcon .navIcon::before {
+  top: 0.25rem;
+}
+header .header .headerNavigationIcon .navIcon::after {
+  top: -0.25rem;
+}
+header .header .headerNavigationBtn {
+  display: none;
+}
+header .header .headerNavigationBtn:checked ~ .headerNavigation {
+  max-height: 15rem;
+}
+header .header .headerNavigationBtn:checked ~ .headerNavigation .navIcon {
+  background: transparent;
+}
+header .header .headerNavigationBtn:checked ~ .headerNavigation .navIcon::before {
+  transform: rotate(-45deg);
+}
+header .header .headerNavigationBtn:checked ~ .headerNavigation .navIcon::after {
+  transform: rotate(45deg);
+}
+header .header .headerNavigationBtn:checked:not(.steps) .navIcon::before,
+header .header .headerNavigationBtn:checked:not(.steps) .navIcon::after {
+  top: 0;
+}
+/*# sourceMappingURL=header.css.map */

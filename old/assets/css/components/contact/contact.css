@@ -1,0 +1,31 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 0;
+}
+.contact-01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 0;
+}
+.contact-01 .wrapS {
+  margin-bottom: 4rem;
+  padding: clamp(1rem, calc(1rem + (1.5 - 1) * var(--calcWidth)), 1.5rem);
+}
+.contact-01 h2 {
+  text-align: center;
+  color: var(--white);
+}
+.contact-01 a {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=contact.css.map */

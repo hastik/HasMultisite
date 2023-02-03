@@ -1,0 +1,50 @@
+.typoPrepare(@state, @name, @size) {
+  --font@{state}@{name}: @size;
+}
+
+.fontSize(@min, @max) {
+  font-size: clamp(unit(@min, rem), calc(unit(@min, rem) + (@max - @min) * var(--calcWidth)), unit(@max, rem));
+}
+
+h1 {
+  .fontSize(@min: 2, @max: 3);
+
+  font-weight: var(--fontWeightLight);
+
+  span {
+    font-weight: var(--fontWeightBold);
+  }
+}
+
+h2 {
+  .fontSize(@min: 2, @max: 2.25);
+
+  font-weight: var(--fontWeightMedium);
+  text-transform: uppercase;
+
+  span {
+    font-weight: var(--fontWeightBold);
+  }
+}
+
+h3 {
+  .fontSize(@min: 1.5, @max: 1.75);
+
+  font-weight: var(--fontWeightLight);
+}
+
+h4 {
+  .fontSize(@min: 1.5, @max: 1.75);
+
+  font-weight: var(--fontWeightMedium);
+}
+
+p {
+  .fontSize(@min: 1, @max: 1);
+
+  font-weight: var(--fontWeightLight);
+
+  span {
+    font-weight: var(--fontWeightBold);
+  }
+}

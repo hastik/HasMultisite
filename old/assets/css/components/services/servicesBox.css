@@ -1,0 +1,15 @@
+.servicesBox {
+  padding: clamp(0rem, calc(0rem + (2 - 0) * var(--calcWidth)), 2rem);
+  text-align: center;
+  color: var(--white);
+}
+.servicesBox img {
+  height: 3.5rem;
+}
+.servicesBox p {
+  font-size: 125%;
+}
+.servicesBox:hover {
+  background: var(--primary);
+}
+/*# sourceMappingURL=servicesBox.css.map */

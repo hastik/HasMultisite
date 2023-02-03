@@ -1,0 +1,13 @@
+.boxed-wrap-translated {
+  margin-bottom: -5rem;
+  transform: translateY(-50%);
+}
+.boxed-wrap-primary {
+  background: var(--primary);
+  color: var(--white);
+}
+.boxed-wrap-secondary {
+  background: var(--secondary);
+  color: var(--primary);
+}
+/*# sourceMappingURL=boxedWrap.css.map */

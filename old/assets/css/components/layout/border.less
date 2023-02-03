@@ -1,0 +1,29 @@
+//border - normal
+.border {
+  .borderConfig(@atr: ~'');
+
+  &-l { .borderConfig(@atr: -left); }
+  &-r { .borderConfig(@atr: -right); }
+  &-t { .borderConfig(@atr: -top); }
+  &-b { .borderConfig(@atr: -bottom); }
+}
+
+.borderConfig (@atr) {
+  &-primary {
+    border@{atr}: .15rem solid var(--primary);
+  }
+
+  &-secondary {
+    border@{atr}: .15rem solid var(--secondary);
+  }
+
+  &-bold {
+    &-primary {
+      border@{atr}: .25rem solid var(--primary);
+    }
+
+    &-secondary {
+      border@{atr}: .25rem solid var(--secondary);
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.counterItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+}
+.counterItemNumber {
+  font-weight: var(--fontWeightBold);
+}
+.counterItem .more::after {
+  content: "+";
+}
+.counterItem .year::after {
+  content: "let";
+}
+.counter-01 .counterItem {
+  font-size: 1rem;
+}
+.counter-01 .counterItem span {
+  font-size: 3rem;
+}
+/*# sourceMappingURL=counter.css.map */

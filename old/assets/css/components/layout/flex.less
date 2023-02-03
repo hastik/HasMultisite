@@ -1,0 +1,40 @@
+//flex
+.flex(@direction, @justify, @align) {
+  display: flex;
+  flex-direction: @direction;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.flex-direction(@direction, @align) {
+  display: flex;
+  flex-direction: @direction;
+}
+
+.flex-justify(@justify, @align) {
+  display: flex;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.flex-align(@align) {
+  display: flex;
+  align-items: @align;
+}
+
+//align
+.a {
+  &i { .make(@state: align, @atr: Items); }
+  &s { .make(@state: align, @atr: Self); }
+}
+
+//justify
+.j {
+  &c { .make(@state: justify, @atr: Content); }
+}
+
+.make(@state, @atr) {
+  &s { --@{state}@{atr}: normal; }
+  &c { --@{state}@{atr}: center; }
+  &e { --@{state}@{atr}: flex-end; }
+}

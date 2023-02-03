@@ -1,0 +1,78 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: var(--footerBackground);
+  z-index: 0;
+}
+.footer .wrap {
+  position: relative;
+}
+.footer .credits {
+  color: var(--footerCreditsTextColor);
+  font-size: var(--footerCreditsTextSize);
+  font-weight: var(--footerCreditsTextWeight);
+  text-transform: var(--footerCreditsTextTransform);
+}
+.footer .credits span {
+  margin-left: 0.5rem;
+  padding-left: 0.5rem;
+  border-left: 1px solid var(--footerCreditsTextColor);
+}
+.footer .credits img {
+  margin-left: 0.5rem;
+  height: 1.5rem;
+}
+.footer .scroll {
+  position: absolute;
+  transition: all 300ms ease-in-out;
+}
+.footer .scroll img {
+  width: 2rem;
+}
+.footer-01 .scroll {
+  right: 1rem;
+  bottom: clamp(2rem, calc(2rem + (3 - 2) * var(--calcWidth)), 3rem);
+}
+.footer-01 .scroll:hover {
+  transform: scale(1.2);
+}
+.footer-02 .scroll {
+  right: 1rem;
+  bottom: 1rem;
+  transform: rotate(180deg);
+}
+.footer-02 .scroll:hover {
+  transform: translateY(-1rem) scale(1.2) rotate(180deg);
+}
+.footer-03 .scroll {
+  right: 1rem;
+  bottom: clamp(1rem, calc(1rem + (3 - 1) * var(--calcWidth)), 3rem);
+  transform: rotate(180deg);
+}
+.footer-03 .scroll:hover {
+  transform: translateY(-2rem) scale(1.2) rotate(180deg);
+}
+.footer-cp-01 {
+  position: fixed;
+  bottom: 0;
+  background: transparent;
+  padding-bottom: clamp(0.5rem, calc(0.5rem + (2 - 0.5) * var(--calcWidth)), 2rem);
+}
+.footer-cp-01 .credits {
+  font-size: 1rem;
+  font-weight: var(--fontWeightLight);
+  color: var(--white);
+}
+.footer-cp-01 .credits span {
+  margin-left: 0.5rem;
+  padding-left: 0.5rem;
+  border-left: 1px solid var(--white);
+}
+.footer-cp-01 .credits img {
+  margin-left: 0.5rem;
+  height: 1.25rem;
+}
+/*# sourceMappingURL=footer.css.map */

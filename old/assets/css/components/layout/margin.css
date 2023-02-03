@@ -1,0 +1,90 @@
+.mt-1 {
+  margin-top: calc(1rem * 1 * (1 * 0.5)) ;
+}
+.mt-2 {
+  margin-top: calc(1rem * 2 * (2 * 0.5)) ;
+}
+.mt-3 {
+  margin-top: calc(1rem * 3 * (3 * 0.5)) ;
+}
+.mt-4 {
+  margin-top: calc(1rem * 4 * (4 * 0.5)) ;
+}
+.mt-5 {
+  margin-top: calc(1rem * 5 * (5 * 0.5)) ;
+}
+.mr-1 {
+  margin-right: calc(1rem * 1 * (1 * 0.5)) ;
+}
+.mr-2 {
+  margin-right: calc(1rem * 2 * (2 * 0.5)) ;
+}
+.mr-3 {
+  margin-right: calc(1rem * 3 * (3 * 0.5)) ;
+}
+.mr-4 {
+  margin-right: calc(1rem * 4 * (4 * 0.5)) ;
+}
+.mr-5 {
+  margin-right: calc(1rem * 5 * (5 * 0.5)) ;
+}
+.mb-1 {
+  margin-bottom: calc(1rem * 1 * (1 * 0.5)) ;
+}
+.mb-2 {
+  margin-bottom: calc(1rem * 2 * (2 * 0.5)) ;
+}
+.mb-3 {
+  margin-bottom: calc(1rem * 3 * (3 * 0.5)) ;
+}
+.mb-4 {
+  margin-bottom: calc(1rem * 4 * (4 * 0.5)) ;
+}
+.mb-5 {
+  margin-bottom: calc(1rem * 5 * (5 * 0.5)) ;
+}
+.ml-1 {
+  margin-left: calc(1rem * 1 * (1 * 0.5)) ;
+}
+.ml-2 {
+  margin-left: calc(1rem * 2 * (2 * 0.5)) ;
+}
+.ml-3 {
+  margin-left: calc(1rem * 3 * (3 * 0.5)) ;
+}
+.ml-4 {
+  margin-left: calc(1rem * 4 * (4 * 0.5)) ;
+}
+.ml-5 {
+  margin-left: calc(1rem * 5 * (5 * 0.5)) ;
+}
+.mx-1 {
+  margin: calc(0 * 1 * (1 * 0.5)) calc(1rem * 1 * (1 * 0.5));
+}
+.mx-2 {
+  margin: calc(0 * 2 * (2 * 0.5)) calc(1rem * 2 * (2 * 0.5));
+}
+.mx-3 {
+  margin: calc(0 * 3 * (3 * 0.5)) calc(1rem * 3 * (3 * 0.5));
+}
+.mx-4 {
+  margin: calc(0 * 4 * (4 * 0.5)) calc(1rem * 4 * (4 * 0.5));
+}
+.mx-5 {
+  margin: calc(0 * 5 * (5 * 0.5)) calc(1rem * 5 * (5 * 0.5));
+}
+.my-1 {
+  margin: calc(1rem * 1 * (1 * 0.5)) calc(0 * 1 * (1 * 0.5));
+}
+.my-2 {
+  margin: calc(1rem * 2 * (2 * 0.5)) calc(0 * 2 * (2 * 0.5));
+}
+.my-3 {
+  margin: calc(1rem * 3 * (3 * 0.5)) calc(0 * 3 * (3 * 0.5));
+}
+.my-4 {
+  margin: calc(1rem * 4 * (4 * 0.5)) calc(0 * 4 * (4 * 0.5));
+}
+.my-5 {
+  margin: calc(1rem * 5 * (5 * 0.5)) calc(0 * 5 * (5 * 0.5));
+}

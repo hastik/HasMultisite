@@ -1,0 +1,1 @@
+Multi page funguje. Je potřeba pro všechny stránky kromě /pages/index.php předělat na nové komponenty

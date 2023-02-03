@@ -1,0 +1,27 @@
+.ais {
+  --alignItems: normal;
+}
+.aic {
+  --alignItems: center;
+}
+.aie {
+  --alignItems: flex-end;
+}
+.ass {
+  --alignSelf: normal;
+}
+.asc {
+  --alignSelf: center;
+}
+.ase {
+  --alignSelf: flex-end;
+}
+.jcs {
+  --justifyContent: normal;
+}
+.jcc {
+  --justifyContent: center;
+}
+.jce {
+  --justifyContent: flex-end;
+}

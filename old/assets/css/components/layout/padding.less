@@ -1,0 +1,35 @@
+.p {
+  &t { .p(@atr: -top); }
+  &r { .p(@atr: -right); }
+  &b { .p(@atr: -bottom); }
+  &l { .p(@atr: -left); }
+  &x { .p(@i: 0, @j: 1rem); }
+  &y { .p(@j: 0); }
+}
+
+.pcf(@min, @max) { .c(@atr: ~'', @min, @max) }
+.pcx(@min, @max) { .cAxis(@atr: x, @min, @max) }
+.pcy(@min, @max) { .cAxis(@atr: y, @min, @max) }
+.pct(@min, @max) { .c(@atr: -top, @min, @max) }
+.pcr(@min, @max) { .c(@atr: -right, @min, @max) }
+.pcb(@min, @max) { .c(@atr: -bottom, @min, @max) }
+.pcl(@min, @max) { .c(@atr: -left, @min, @max) }
+
+.make-variants(@n:1) when (@n =< 5) {
+  .p(@atr: ~'', @i: 1rem, @j: ~'') {
+    &-@{n} { padding@{atr}: calc(@i * @n * (@n * .5)) if((@j >= 0), calc(@j * @n * (@n * .5))) }
+  }
+
+  .make-variants(@n + 1);
+}
+
+.make-variants();
+
+//clamp
+.c(@atr: ~'', @min, @max) {
+  padding@{atr}: clamp(unit(@min, rem), calc(unit(@min, rem) + (@max - @min) * var(--calcWidth)), unit(@max, rem));
+}
+
+.cAxis(@atr, @min, @max) {
+  padding: if((@atr = x), 0) clamp(unit(@min, rem), calc(unit(@min, rem) + (@max - @min) * var(--calcWidth)), unit(@max, rem)) if((@atr = y), 0);
+}

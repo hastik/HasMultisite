@@ -1,0 +1,21 @@
+{
+  "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-less"
+  ],
+  "customSyntax": "postcss-less",
+  "rules": {
+    "at-rule-no-unknown": null,
+    "color-no-invalid-hex":true,
+    "number-leading-zero": "never",
+    "unit-allowed-list": ["rem", "vw", "vh", "%", "s", "ms", "deg", "fr"],
+    "color-hex-case": "lower",
+    "color-hex-length": "short",
+    "no-empty-source": true,
+    "max-empty-lines": 2,
+    "no-descending-specificity": null,
+    "custom-property-pattern": null,
+    "selector-class-pattern": "^[a-z][a-zA-Z0-9]+$",
+    "no-missing-end-of-source-newline": null
+  }
+}

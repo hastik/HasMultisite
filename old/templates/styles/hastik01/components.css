@@ -1,0 +1,10 @@
+
+
+    .grida{ --grid-min-item-size: 12rem;}
+    .grid2{ --grid-cols: 2; --grid-item-minimum: 20;}
+    .grid3{ --grid-cols: 3; --grid-item-minimum: 20;}
+    .grid4{ --grid-cols: 4; --grid-item-minimum: 16;}
+    .grid5{ --grid-cols: 5; --grid-item-minimum: 14;}
+    .grid6{ --grid-cols: 6; --grid-item-minimum: 12;}
+
+
